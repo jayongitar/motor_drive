@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name motor_drive)(type Legacy)(uri C:/Users/18312/Desktop/KiCad/motor_drive_REV_1.0/lib_sch/motor_drive.lib)(options "")(descr ""))
+)

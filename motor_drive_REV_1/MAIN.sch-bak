@@ -1,0 +1,549 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr B 17000 11000
+encoding utf-8
+Sheet 1 14
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Interface_CAN_LIN:TJA1051TK-3 U?
+U 1 1 5E1ACF37
+P 7100 2100
+F 0 "U?" H 7100 2681 50  0000 C CNN
+F 1 "TJA1051TK-3" H 7100 2590 50  0000 C CNN
+F 2 "Package_DFN_QFN:DFN-8-1EP_3x3mm_P0.65mm_EP1.55x2.4mm" H 7100 1600 50  0001 C CIN
+F 3 "http://www.nxp.com/documents/data_sheet/TJA1051.pdf" H 7100 2100 50  0001 C CNN
+	1    7100 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L motor_drive:DRV8301 U?
+U 1 1 5E1D9AFF
+P 3100 3200
+F 0 "U?" H 3275 4415 50  0000 C CNN
+F 1 "DRV8301" H 3275 4324 50  0000 C CNN
+F 2 "" H 3100 4300 50  0001 C CNN
+F 3 "" H 3100 4300 50  0001 C CNN
+	1    3100 3200
+	1    0    0    -1  
+$EndComp
+$Sheet
+S 10950 2500 1000 4350
+U 5E1E8A88
+F0 "DRV8301" 50
+F1 "DRV8301.sch" 50
+F2 "INL_C" I L 10950 2650 50 
+F3 "INH_C" I L 10950 2800 50 
+F4 "INL_B" I L 10950 2950 50 
+F5 "INH_B" I L 10950 3100 50 
+F6 "INL_A" I L 10950 3250 50 
+F7 "INH_A" I L 10950 3400 50 
+F8 "EN_GATE" I L 10950 4400 50 
+F9 "SCLK" I L 10950 4100 50 
+F10 "SDO" I L 10950 3950 50 
+F11 "SDI" I L 10950 3800 50 
+F12 "CS" I L 10950 3650 50 
+F13 "FAULT" I L 10950 4850 50 
+F14 "nOCTW" I L 10950 4700 50 
+F15 "PWRGD" I L 10950 4550 50 
+F16 "EN_BUCK" I L 10950 5000 50 
+F17 "GH_A" I R 11950 2650 50 
+F18 "GL_A" I R 11950 2950 50 
+F19 "SL_A" I R 11950 3100 50 
+F20 "SH_A" I R 11950 2800 50 
+F21 "SH_B" I R 11950 4600 50 
+F22 "SH_C" I R 11950 6400 50 
+F23 "GH_B" I R 11950 4450 50 
+F24 "GL_B" I R 11950 4750 50 
+F25 "SL_B" I R 11950 4900 50 
+F26 "GH_C" I R 11950 6250 50 
+F27 "GL_C" I R 11950 6550 50 
+F28 "SL_C" I R 11950 6700 50 
+$EndSheet
+$Comp
+L Device:R R?
+U 1 1 5E24C7DD
+P 10250 1250
+AR Path="/5E1E8A88/5E24C7DD" Ref="R?"  Part="1" 
+AR Path="/5E24C7DD" Ref="R?"  Part="1" 
+F 0 "R?" H 10320 1296 50  0000 L CNN
+F 1 "R" H 10320 1205 50  0000 L CNN
+F 2 "" V 10180 1250 50  0001 C CNN
+F 3 "~" H 10250 1250 50  0001 C CNN
+	1    10250 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E24C7E3
+P 10000 1700
+AR Path="/5E1E8A88/5E24C7E3" Ref="C?"  Part="1" 
+AR Path="/5E24C7E3" Ref="C?"  Part="1" 
+F 0 "C?" H 10115 1746 50  0000 L CNN
+F 1 "C" H 10115 1655 50  0000 L CNN
+F 2 "" H 10038 1550 50  0001 C CNN
+F 3 "~" H 10000 1700 50  0001 C CNN
+	1    10000 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 M?
+U 1 1 5E260D01
+P 15000 2950
+AR Path="/5E260D01" Ref="M?"  Part="1" 
+AR Path="/5E257703/5E260D01" Ref="M?"  Part="1" 
+F 0 "M?" H 15080 2946 50  0000 L CNN
+F 1 "Conn_01x01" H 15080 2901 50  0001 L CNN
+F 2 "" H 15000 2950 50  0001 C CNN
+F 3 "~" H 15000 2950 50  0001 C CNN
+	1    15000 2950
+	1    0    0    -1  
+$EndComp
+$Sheet
+S 13100 2500 1000 1500
+U 5E257703
+F0 "half_bridge_1" 50
+F1 "half_bridge.sch" 50
+F2 "DC-" I R 14100 2800 50 
+F3 "DC+" I R 14100 2650 50 
+F4 "I_sense_p" I L 13100 3400 50 
+F5 "I_sense_n" I L 13100 3550 50 
+F6 "GH" I L 13100 2650 50 
+F7 "GL" I L 13100 2950 50 
+F8 "SH" I L 13100 2800 50 
+F9 "SL" I L 13100 3100 50 
+F10 "M" I R 14100 2950 50 
+F11 "V_sense_p" I L 13100 3700 50 
+F12 "V_sense_n" I L 13100 3850 50 
+$EndSheet
+$Sheet
+S 13100 4300 1000 1500
+U 5E26944C
+F0 "half_bridge_2" 50
+F1 "half_bridge.sch" 50
+F2 "DC-" I R 14100 4600 50 
+F3 "DC+" I R 14100 4450 50 
+F4 "I_sense_p" I L 13100 5200 50 
+F5 "I_sense_n" I L 13100 5350 50 
+F6 "GH" I L 13100 4450 50 
+F7 "GL" I L 13100 4750 50 
+F8 "SH" I L 13100 4600 50 
+F9 "SL" I L 13100 4900 50 
+F10 "M" I R 14100 4750 50 
+F11 "V_sense_p" I L 13100 5500 50 
+F12 "V_sense_n" I L 13100 5650 50 
+$EndSheet
+$Sheet
+S 13100 6100 1000 1500
+U 5E26B60E
+F0 "half_bridge_3" 50
+F1 "half_bridge.sch" 50
+F2 "DC-" I R 14100 6400 50 
+F3 "DC+" I R 14100 6250 50 
+F4 "I_sense_p" I L 13100 7000 50 
+F5 "I_sense_n" I L 13100 7150 50 
+F6 "GH" I L 13100 6250 50 
+F7 "GL" I L 13100 6550 50 
+F8 "SH" I L 13100 6400 50 
+F9 "SL" I L 13100 6700 50 
+F10 "M" I R 14100 6550 50 
+F11 "V_sense_p" I L 13100 7300 50 
+F12 "V_sense_n" I L 13100 7450 50 
+$EndSheet
+$Comp
+L Connector_Generic:Conn_01x01 M?
+U 1 1 5E26E147
+P 15000 4750
+AR Path="/5E26E147" Ref="M?"  Part="1" 
+AR Path="/5E257703/5E26E147" Ref="M?"  Part="1" 
+F 0 "M?" H 15080 4746 50  0000 L CNN
+F 1 "Conn_01x01" H 15080 4701 50  0001 L CNN
+F 2 "" H 15000 4750 50  0001 C CNN
+F 3 "~" H 15000 4750 50  0001 C CNN
+	1    15000 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 M?
+U 1 1 5E26E4FA
+P 15050 6550
+AR Path="/5E26E4FA" Ref="M?"  Part="1" 
+AR Path="/5E257703/5E26E4FA" Ref="M?"  Part="1" 
+F 0 "M?" H 15130 6546 50  0000 L CNN
+F 1 "Conn_01x01" H 15130 6501 50  0001 L CNN
+F 2 "" H 15050 6550 50  0001 C CNN
+F 3 "~" H 15050 6550 50  0001 C CNN
+	1    15050 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 M?
+U 1 1 5E26F196
+P 14950 1400
+AR Path="/5E26F196" Ref="M?"  Part="1" 
+AR Path="/5E257703/5E26F196" Ref="M?"  Part="1" 
+F 0 "M?" H 15030 1396 50  0000 L CNN
+F 1 "Conn_01x01" H 15030 1351 50  0001 L CNN
+F 2 "" H 14950 1400 50  0001 C CNN
+F 3 "~" H 14950 1400 50  0001 C CNN
+	1    14950 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 M?
+U 1 1 5E26F3E8
+P 14950 1600
+AR Path="/5E26F3E8" Ref="M?"  Part="1" 
+AR Path="/5E257703/5E26F3E8" Ref="M?"  Part="1" 
+F 0 "M?" H 15030 1596 50  0000 L CNN
+F 1 "Conn_01x01" H 15030 1551 50  0001 L CNN
+F 2 "" H 14950 1600 50  0001 C CNN
+F 3 "~" H 14950 1600 50  0001 C CNN
+	1    14950 1600
+	1    0    0    -1  
+$EndComp
+Text GLabel 14300 2650 2    50   Input ~ 0
+DC+
+Text GLabel 14300 2800 2    50   Input ~ 0
+DC+
+Text GLabel 14300 4450 2    50   Input ~ 0
+DC+
+Text GLabel 14300 4600 2    50   Input ~ 0
+DC+
+Text GLabel 14300 6250 2    50   Input ~ 0
+DC+
+Text GLabel 14300 6400 2    50   Input ~ 0
+DC+
+Text GLabel 14550 1600 0    50   Input ~ 0
+DC+
+Text GLabel 14550 1400 0    50   Input ~ 0
+DC+
+Wire Wire Line
+	14550 1400 14750 1400
+Wire Wire Line
+	14550 1600 14750 1600
+Wire Wire Line
+	14100 2650 14300 2650
+Wire Wire Line
+	14100 4450 14300 4450
+Wire Wire Line
+	14100 6250 14300 6250
+$Sheet
+S 6450 7000 700  600 
+U 5E291A12
+F0 "I_sense_1" 50
+F1 "sense_amp.sch" 50
+F2 "out" I L 6450 7150 50 
+F3 "IN+" I R 7150 7150 50 
+F4 "IN-" I R 7150 7300 50 
+F5 "GND" I L 6450 7300 50 
+F6 "VCC" I L 6450 7450 50 
+$EndSheet
+Text GLabel 6300 7150 0    50   Input ~ 0
+I_sense_1
+Text GLabel 6300 7300 0    50   Input ~ 0
+GND
+Text GLabel 6300 7450 0    50   Input ~ 0
+VCC
+Wire Wire Line
+	6300 7150 6450 7150
+Wire Wire Line
+	6300 7300 6450 7300
+Wire Wire Line
+	6300 7450 6450 7450
+$Sheet
+S 6450 7950 700  600 
+U 5E2938C8
+F0 "I_sense_2" 50
+F1 "sense_amp.sch" 50
+F2 "out" I L 6450 8100 50 
+F3 "IN+" I R 7150 8100 50 
+F4 "IN-" I R 7150 8250 50 
+F5 "GND" I L 6450 8250 50 
+F6 "VCC" I L 6450 8400 50 
+$EndSheet
+Text GLabel 6300 8100 0    50   Input ~ 0
+I_sense_2
+Text GLabel 6300 8250 0    50   Input ~ 0
+GND
+Text GLabel 6300 8400 0    50   Input ~ 0
+VCC
+Wire Wire Line
+	6300 8100 6450 8100
+Wire Wire Line
+	6300 8250 6450 8250
+Wire Wire Line
+	6300 8400 6450 8400
+$Sheet
+S 6450 8900 700  600 
+U 5E295828
+F0 "I_sense_3" 50
+F1 "sense_amp.sch" 50
+F2 "out" I L 6450 9050 50 
+F3 "IN+" I R 7150 9050 50 
+F4 "IN-" I R 7150 9200 50 
+F5 "GND" I L 6450 9200 50 
+F6 "VCC" I L 6450 9350 50 
+$EndSheet
+Text GLabel 6300 9050 0    50   Input ~ 0
+I_sense_3
+Text GLabel 6300 9200 0    50   Input ~ 0
+GND
+Text GLabel 6300 9350 0    50   Input ~ 0
+VCC
+Wire Wire Line
+	6300 9050 6450 9050
+Wire Wire Line
+	6300 9200 6450 9200
+Wire Wire Line
+	6300 9350 6450 9350
+Wire Wire Line
+	14100 2800 14300 2800
+Wire Wire Line
+	14100 4750 14800 4750
+Wire Wire Line
+	14100 4600 14300 4600
+Wire Wire Line
+	14100 6550 14850 6550
+Wire Wire Line
+	14100 6400 14300 6400
+Wire Wire Line
+	14100 2950 14800 2950
+Text GLabel 12900 3400 0    50   Input ~ 0
+I_sense_1p
+Text GLabel 12900 3550 0    50   Input ~ 0
+I_sense_1n
+Text GLabel 12900 3700 0    50   Input ~ 0
+V_sense_1p
+Text GLabel 12900 3850 0    50   Input ~ 0
+V_sense_1n
+Wire Wire Line
+	12900 3400 13100 3400
+Wire Wire Line
+	12900 3550 13100 3550
+Wire Wire Line
+	12900 3700 13100 3700
+Wire Wire Line
+	12900 3850 13100 3850
+Text GLabel 12900 5200 0    50   Input ~ 0
+I_sense_2p
+Text GLabel 12900 5350 0    50   Input ~ 0
+I_sense_2n
+Text GLabel 12900 5500 0    50   Input ~ 0
+V_sense_2p
+Text GLabel 12900 5650 0    50   Input ~ 0
+V_sense_2n
+Wire Wire Line
+	12900 5200 13100 5200
+Wire Wire Line
+	12900 5350 13100 5350
+Wire Wire Line
+	12900 5500 13100 5500
+Wire Wire Line
+	12900 5650 13100 5650
+Text GLabel 12900 7000 0    50   Input ~ 0
+I_sense_3p
+Text GLabel 12900 7150 0    50   Input ~ 0
+I_sense_3n
+Text GLabel 12900 7300 0    50   Input ~ 0
+V_sense_3p
+Text GLabel 12900 7450 0    50   Input ~ 0
+V_sense_3n
+Wire Wire Line
+	12900 7000 13100 7000
+Wire Wire Line
+	12900 7150 13100 7150
+Wire Wire Line
+	12900 7300 13100 7300
+Wire Wire Line
+	12900 7450 13100 7450
+Wire Wire Line
+	13100 2650 11950 2650
+Wire Wire Line
+	11950 2800 13100 2800
+Wire Wire Line
+	11950 2950 13100 2950
+Wire Wire Line
+	11950 3100 13100 3100
+Wire Wire Line
+	11950 4450 13100 4450
+Wire Wire Line
+	11950 4600 13100 4600
+Wire Wire Line
+	11950 4750 13100 4750
+Wire Wire Line
+	11950 4900 13100 4900
+Wire Wire Line
+	13100 6250 11950 6250
+Wire Wire Line
+	11950 6400 13100 6400
+Wire Wire Line
+	11950 6550 13100 6550
+Wire Wire Line
+	11950 6700 13100 6700
+Text GLabel 7300 7150 2    50   Input ~ 0
+I_sense_1p
+Text GLabel 7300 7300 2    50   Input ~ 0
+I_sense_1n
+Wire Wire Line
+	7150 7150 7300 7150
+Wire Wire Line
+	7150 7300 7300 7300
+Text GLabel 7300 8100 2    50   Input ~ 0
+I_sense_2p
+Text GLabel 7300 8250 2    50   Input ~ 0
+I_sense_2n
+Wire Wire Line
+	7150 8100 7300 8100
+Wire Wire Line
+	7150 8250 7300 8250
+Text GLabel 7300 9050 2    50   Input ~ 0
+I_sense_3p
+Text GLabel 7300 9200 2    50   Input ~ 0
+I_sense_3n
+Wire Wire Line
+	7150 9050 7300 9050
+Wire Wire Line
+	7150 9200 7300 9200
+$Sheet
+S 8500 7000 700  600 
+U 5E2E3D6E
+F0 "V_sense_1" 50
+F1 "sense_amp.sch" 50
+F2 "out" I L 8500 7150 50 
+F3 "IN+" I R 9200 7150 50 
+F4 "IN-" I R 9200 7300 50 
+F5 "GND" I L 8500 7300 50 
+F6 "VCC" I L 8500 7450 50 
+$EndSheet
+Text GLabel 8350 7150 0    50   Input ~ 0
+V_sense_1
+Text GLabel 8350 7300 0    50   Input ~ 0
+GND
+Wire Wire Line
+	8350 7150 8500 7150
+Wire Wire Line
+	8350 7300 8500 7300
+$Sheet
+S 8500 7950 700  600 
+U 5E2E5BBE
+F0 "V_sense_2" 50
+F1 "sense_amp.sch" 50
+F2 "out" I L 8500 8100 50 
+F3 "IN+" I R 9200 8100 50 
+F4 "IN-" I R 9200 8250 50 
+F5 "GND" I L 8500 8250 50 
+F6 "VCC" I L 8500 8400 50 
+$EndSheet
+Text GLabel 8350 8100 0    50   Input ~ 0
+V_sense_2
+Text GLabel 8350 8250 0    50   Input ~ 0
+GND
+Text GLabel 8350 8400 0    50   Input ~ 0
+5.0V
+Wire Wire Line
+	8350 8100 8500 8100
+Wire Wire Line
+	8350 8250 8500 8250
+Wire Wire Line
+	8350 8400 8500 8400
+$Sheet
+S 8500 8900 700  600 
+U 5E2E7F62
+F0 "V_sense_3" 50
+F1 "sense_amp.sch" 50
+F2 "out" I L 8500 9050 50 
+F3 "IN+" I R 9200 9050 50 
+F4 "IN-" I R 9200 9200 50 
+F5 "GND" I L 8500 9200 50 
+F6 "VCC" I L 8500 9350 50 
+$EndSheet
+Text GLabel 8350 9050 0    50   Input ~ 0
+V_sense_3
+Text GLabel 8350 9200 0    50   Input ~ 0
+GND
+Wire Wire Line
+	8350 9050 8500 9050
+Wire Wire Line
+	8350 9200 8500 9200
+Text GLabel 8350 7450 0    50   Input ~ 0
+5.0V
+Text GLabel 8350 9350 0    50   Input ~ 0
+5.0V
+Wire Wire Line
+	8350 7450 8500 7450
+Wire Wire Line
+	8350 9350 8500 9350
+Text GLabel 9350 7150 2    50   Input ~ 0
+V_sense_1p
+Text GLabel 9350 7300 2    50   Input ~ 0
+V_sense_1n
+Wire Wire Line
+	9200 7150 9350 7150
+Wire Wire Line
+	9200 7300 9350 7300
+Text GLabel 9350 8100 2    50   Input ~ 0
+V_sense_2p
+Text GLabel 9350 8250 2    50   Input ~ 0
+V_sense_2n
+Wire Wire Line
+	9200 8100 9350 8100
+Wire Wire Line
+	9200 8250 9350 8250
+Text GLabel 9350 9050 2    50   Input ~ 0
+V_sense_3p
+Text GLabel 9350 9200 2    50   Input ~ 0
+V_sense_3n
+Wire Wire Line
+	9200 9050 9350 9050
+Wire Wire Line
+	9200 9200 9350 9200
+$Sheet
+S 6500 3200 1300 1050
+U 5E2FC472
+F0 "CAN" 50
+F1 "CAN.sch" 50
+$EndSheet
+$Comp
+L ADM4853:ADM4853WARZ-RL7 U?
+U 1 1 5E3014DC
+P 5850 5250
+F 0 "U?" H 7150 5837 60  0000 C CNN
+F 1 "ADM4853WARZ-RL7" H 7150 5731 60  0000 C CNN
+F 2 "R_8" H 7150 5790 60  0001 C CNN
+F 3 "" H 5850 5250 60  0000 C CNN
+	1    5850 5250
+	1    0    0    -1  
+$EndComp
+$Sheet
+S 5050 1200 1050 900 
+U 5E3035BC
+F0 "Sheet5E3035BB" 50
+F1 "CAN_linear.sch" 50
+$EndSheet
+$Comp
+L SN65LB:SN65LBC176QDRQ1 U?
+U 1 1 5E30B7B4
+P 1950 6600
+F 0 "U?" H 3050 6987 60  0000 C CNN
+F 1 "SN65LBC176QDRQ1" H 3050 6881 60  0000 C CNN
+F 2 "D8" H 3050 6840 60  0001 C CNN
+F 3 "" H 1950 6600 60  0000 C CNN
+	1    1950 6600
+	1    0    0    -1  
+$EndComp
+$Sheet
+S 1900 7600 2150 1450
+U 5E30CA3B
+F0 "SN65LB" 50
+F1 "SN65LB.sch" 50
+$EndSheet
+$EndSCHEMATC
