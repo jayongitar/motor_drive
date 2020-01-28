@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name motor_drive_footprints)(type KiCad)(uri ${KIPRJMOD}/lib_fp.pretty/motor_drive_footprints.pretty)(options "")(descr ""))
+)

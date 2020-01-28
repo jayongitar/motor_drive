@@ -1,0 +1,72 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 13 14
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L motor_drive:ADA4571WHRZ-R7 U?
+U 1 1 5E373274
+P 4450 3850
+F 0 "U?" H 5250 4237 60  0000 C CNN
+F 1 "ADA4571WHRZ-R7" H 5250 4131 60  0000 C CNN
+F 2 "R_8" H 5250 4090 60  0001 C CNN
+F 3 "" H 4450 3850 60  0000 C CNN
+	1    4450 3850
+	1    0    0    -1  
+$EndComp
+Text HLabel 6200 5050 2    50   Input ~ 0
+GND
+Wire Wire Line
+	6050 3950 6200 3950
+Wire Wire Line
+	6200 3950 6200 4050
+Wire Wire Line
+	6050 4450 6200 4450
+Connection ~ 6200 4450
+Wire Wire Line
+	6200 4450 6200 4850
+Wire Wire Line
+	6050 4050 6200 4050
+Connection ~ 6200 4050
+Wire Wire Line
+	6200 4050 6200 4450
+Wire Wire Line
+	4450 4150 3550 4150
+Wire Wire Line
+	3550 4150 3550 4850
+Wire Wire Line
+	3550 4850 6200 4850
+Connection ~ 6200 4850
+Wire Wire Line
+	6200 4850 6200 5050
+Text HLabel 4450 4350 0    50   Input ~ 0
+SIN
+Text HLabel 4450 4450 0    50   Input ~ 0
+COS
+Text HLabel 3400 3850 0    50   Input ~ 0
+VDD
+NoConn ~ 4450 4050
+Wire Wire Line
+	3400 3850 4450 3850
+$Comp
+L motor_drive:C C?
+U 1 1 5E374B8C
+P 3550 4000
+F 0 "C?" V 3298 4000 50  0000 C CNN
+F 1 "C" V 3389 4000 50  0000 C CNN
+F 2 "" H 3588 3850 50  0001 C CNN
+F 3 "~" H 3550 4000 50  0001 C CNN
+	1    3550 4000
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
