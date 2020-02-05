@@ -44,10 +44,10 @@ pinout
 34. nVREGENZ
 35. VDDIO
 36. GPIO_33
-37. PWM3
-38. PWM4
-39. PWM5
-40. PWM6
+37. PWM_3
+38. PWM_4
+39. PWM_5
+40. PWM_6
 41. GPIO_6
 42. GPIO_7
 43. VDD
@@ -56,5 +56,7 @@ pinout
 	-> tied to GND
 46. X2
 	-> NC
+47. GPIO_12
+48. UART_RX
 
 
