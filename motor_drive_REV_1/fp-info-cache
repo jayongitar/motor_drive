@@ -1,4 +1,4 @@
-16948952657099691
+16956863409295799
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -75257,6 +75257,27 @@ varistor SIOV
 2
 2
 motor_drive_footprints
+2pos_254
+
+
+0
+2
+2
+motor_drive_footprints
+3pos_254
+
+
+0
+3
+3
+motor_drive_footprints
+6pos_254
+
+
+0
+6
+6
+motor_drive_footprints
 AD8418ABRMZ-RL
 
 
@@ -75270,6 +75291,13 @@ ADA4571WHRZ-R7
 0
 8
 8
+motor_drive_footprints
+C_0603_1608Metric
+Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
 motor_drive_footprints
 DRV8301DCAR
 
@@ -75290,7 +75318,7 @@ NTTGS5820NL-D
 
 0
 10
-9
+4
 motor_drive_footprints
 SN65LBC176QDRQ1
 
@@ -75298,6 +75326,13 @@ SN65LBC176QDRQ1
 0
 8
 8
+motor_drive_footprints
+SOD123
+
+
+0
+2
+2
 motor_drive_footprints
 TMS320F28027PTT
 

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 13 14
+Sheet 14 14
 Title ""
 Date ""
 Rev ""
@@ -13,26 +13,24 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 6500 3500 2    50   Input ~ 0
+Text HLabel 3400 2700 0    50   Input ~ 0
 IN+
-Text HLabel 4500 3500 0    50   Input ~ 0
-IN-
 $Comp
-L motor_drive:AD8418ABRMZ-RL U?
+L motor_drive:AD8418ABRMZ-RL U9
 U 1 1 5E259F13
 P 4500 3500
-AR Path="/5E291A12/5E259F13" Ref="U?"  Part="1" 
-AR Path="/5E2938C8/5E259F13" Ref="U?"  Part="1" 
-AR Path="/5E295828/5E259F13" Ref="U?"  Part="1" 
+AR Path="/5E291A12/5E259F13" Ref="U9"  Part="1" 
+AR Path="/5E2938C8/5E259F13" Ref="U1"  Part="1" 
+AR Path="/5E295828/5E259F13" Ref="U2"  Part="1" 
 AR Path="/5E2E3D6E/5E259F13" Ref="U?"  Part="1" 
 AR Path="/5E2E5BBE/5E259F13" Ref="U?"  Part="1" 
 AR Path="/5E2E7F62/5E259F13" Ref="U?"  Part="1" 
-AR Path="/5E336639/5E259F13" Ref="U?"  Part="1" 
-AR Path="/5E33A08D/5E259F13" Ref="U?"  Part="1" 
+AR Path="/5E336639/5E259F13" Ref="U3"  Part="1" 
+AR Path="/5E33A08D/5E259F13" Ref="U4"  Part="1" 
 AR Path="/5E33E36D/5E259F13" Ref="U?"  Part="1" 
-F 0 "U?" H 5500 3887 60  0000 C CNN
+F 0 "U9" H 5500 3887 60  0000 C CNN
 F 1 "AD8418ABRMZ-RL" H 5500 3781 60  0000 C CNN
-F 2 "RM_8" H 5500 3740 60  0001 C CNN
+F 2 "motor_drive_footprints:AD8418ABRMZ-RL" H 5500 3740 60  0001 C CNN
 F 3 "" H 4500 3500 60  0000 C CNN
 	1    4500 3500
 	1    0    0    -1  
@@ -52,41 +50,159 @@ Wire Wire Line
 $Comp
 L Device:C C?
 U 1 1 5E25CC80
-P 5500 4250
+P 5500 4450
 AR Path="/5E1E8A88/5E25CC80" Ref="C?"  Part="1" 
 AR Path="/5E23C306/5E25CC80" Ref="C?"  Part="1" 
 AR Path="/5E285F18/5E25CC80" Ref="C?"  Part="1" 
 AR Path="/5E286BCF/5E25CC80" Ref="C?"  Part="1" 
-AR Path="/5E291A12/5E25CC80" Ref="C?"  Part="1" 
-AR Path="/5E2938C8/5E25CC80" Ref="C?"  Part="1" 
-AR Path="/5E295828/5E25CC80" Ref="C?"  Part="1" 
+AR Path="/5E291A12/5E25CC80" Ref="C35"  Part="1" 
+AR Path="/5E2938C8/5E25CC80" Ref="C2"  Part="1" 
+AR Path="/5E295828/5E25CC80" Ref="C5"  Part="1" 
 AR Path="/5E2E3D6E/5E25CC80" Ref="C?"  Part="1" 
 AR Path="/5E2E5BBE/5E25CC80" Ref="C?"  Part="1" 
 AR Path="/5E2E7F62/5E25CC80" Ref="C?"  Part="1" 
-AR Path="/5E336639/5E25CC80" Ref="C?"  Part="1" 
-AR Path="/5E33A08D/5E25CC80" Ref="C?"  Part="1" 
+AR Path="/5E336639/5E25CC80" Ref="C8"  Part="1" 
+AR Path="/5E33A08D/5E25CC80" Ref="C11"  Part="1" 
 AR Path="/5E33E36D/5E25CC80" Ref="C?"  Part="1" 
-F 0 "C?" H 5615 4296 50  0000 L CNN
-F 1 "C" H 5615 4205 50  0000 L CNN
-F 2 "" H 5538 4100 50  0001 C CNN
-F 3 "~" H 5500 4250 50  0001 C CNN
-	1    5500 4250
+F 0 "C35" H 5615 4496 50  0000 L CNN
+F 1 "1uF" H 5615 4405 50  0000 L CNN
+F 2 "motor_drive_footprints:C_0603_1608Metric" H 5538 4300 50  0001 C CNN
+F 3 "~" H 5500 4450 50  0001 C CNN
+	1    5500 4450
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	4100 3700 4100 4250
-Connection ~ 4100 3700
-Wire Wire Line
-	5350 4250 4100 4250
-Wire Wire Line
-	5650 4250 7150 4250
-Wire Wire Line
-	7150 4250 7150 3700
-Connection ~ 7150 3700
 Text HLabel 6500 3800 2    50   Input ~ 0
 OUT
 Text HLabel 7150 3600 2    50   Input ~ 0
 5.0V
-Text HLabel 4100 4250 0    50   Input ~ 0
+Text HLabel 4100 4450 0    50   Input ~ 0
 GND
+Wire Wire Line
+	6500 3500 6750 3500
+Wire Wire Line
+	7150 3700 7150 4450
+Connection ~ 7150 3700
+Wire Wire Line
+	4100 3700 4100 4450
+Connection ~ 4100 3700
+$Comp
+L Device:C C?
+U 1 1 5E3A2D2D
+P 5500 5000
+AR Path="/5E1E8A88/5E3A2D2D" Ref="C?"  Part="1" 
+AR Path="/5E23C306/5E3A2D2D" Ref="C?"  Part="1" 
+AR Path="/5E285F18/5E3A2D2D" Ref="C?"  Part="1" 
+AR Path="/5E286BCF/5E3A2D2D" Ref="C?"  Part="1" 
+AR Path="/5E291A12/5E3A2D2D" Ref="C36"  Part="1" 
+AR Path="/5E2938C8/5E3A2D2D" Ref="C3"  Part="1" 
+AR Path="/5E295828/5E3A2D2D" Ref="C6"  Part="1" 
+AR Path="/5E2E3D6E/5E3A2D2D" Ref="C?"  Part="1" 
+AR Path="/5E2E5BBE/5E3A2D2D" Ref="C?"  Part="1" 
+AR Path="/5E2E7F62/5E3A2D2D" Ref="C?"  Part="1" 
+AR Path="/5E336639/5E3A2D2D" Ref="C9"  Part="1" 
+AR Path="/5E33A08D/5E3A2D2D" Ref="C12"  Part="1" 
+AR Path="/5E33E36D/5E3A2D2D" Ref="C?"  Part="1" 
+F 0 "C36" H 5615 5046 50  0000 L CNN
+F 1 "0.01uF" H 5615 4955 50  0000 L CNN
+F 2 "motor_drive_footprints:C_0603_1608Metric" H 5538 4850 50  0001 C CNN
+F 3 "~" H 5500 5000 50  0001 C CNN
+	1    5500 5000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5650 5000 5800 5000
+Wire Wire Line
+	5350 5000 5200 5000
+Wire Wire Line
+	4100 4450 5200 4450
+Wire Wire Line
+	5650 4450 5800 4450
+Wire Wire Line
+	5800 4450 5800 5000
+Connection ~ 5800 4450
+Wire Wire Line
+	5800 4450 7150 4450
+Wire Wire Line
+	5200 4450 5200 5000
+Connection ~ 5200 4450
+Wire Wire Line
+	5200 4450 5350 4450
+Text HLabel 3450 3500 0    50   Input ~ 0
+IN-
+$Comp
+L motor_drive:R R?
+U 1 1 5E3B6CAC
+P 3700 2700
+AR Path="/5E26944C/5E3B6CAC" Ref="R?"  Part="1" 
+AR Path="/5E3B6CAC" Ref="R?"  Part="1" 
+AR Path="/5E334D58/5E3B6CAC" Ref="R?"  Part="1" 
+AR Path="/5E2938C8/5E3B6CAC" Ref="R10"  Part="1" 
+AR Path="/5E295828/5E3B6CAC" Ref="R12"  Part="1" 
+AR Path="/5E336639/5E3B6CAC" Ref="R14"  Part="1" 
+AR Path="/5E33A08D/5E3B6CAC" Ref="R16"  Part="1" 
+AR Path="/5E291A12/5E3B6CAC" Ref="R42"  Part="1" 
+F 0 "R42" V 3493 2700 50  0000 C CNN
+F 1 "680" V 3584 2700 50  0000 C CNN
+F 2 "motor_drive_footprints:C_0603_1608Metric" V 3630 2700 50  0001 C CNN
+F 3 "~" H 3700 2700 50  0001 C CNN
+	1    3700 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L motor_drive:C C?
+U 1 1 5E3B79F8
+P 4100 3050
+AR Path="/5E38D632/5E3B79F8" Ref="C?"  Part="1" 
+AR Path="/5E334D58/5E3B79F8" Ref="C?"  Part="1" 
+AR Path="/5E2938C8/5E3B79F8" Ref="C1"  Part="1" 
+AR Path="/5E295828/5E3B79F8" Ref="C4"  Part="1" 
+AR Path="/5E336639/5E3B79F8" Ref="C7"  Part="1" 
+AR Path="/5E33A08D/5E3B79F8" Ref="C10"  Part="1" 
+AR Path="/5E291A12/5E3B79F8" Ref="C34"  Part="1" 
+F 0 "C34" H 4215 3096 50  0000 L CNN
+F 1 "0.047uF" H 4215 3005 50  0000 L CNN
+F 2 "motor_drive_footprints:C_0603_1608Metric" H 4138 2900 50  0001 C CNN
+F 3 "~" H 4100 3050 50  0001 C CNN
+	1    4100 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 2700 3550 2700
+Wire Wire Line
+	3850 2700 4100 2700
+Wire Wire Line
+	4100 2700 6750 2700
+Wire Wire Line
+	6750 2700 6750 3500
+Connection ~ 4100 2700
+Wire Wire Line
+	4100 2700 4100 2900
+Wire Wire Line
+	4100 3200 4100 3500
+Wire Wire Line
+	4100 3500 4500 3500
+$Comp
+L motor_drive:R R?
+U 1 1 5E394586
+P 3700 3500
+AR Path="/5E26944C/5E394586" Ref="R?"  Part="1" 
+AR Path="/5E394586" Ref="R?"  Part="1" 
+AR Path="/5E334D58/5E394586" Ref="R?"  Part="1" 
+AR Path="/5E2938C8/5E394586" Ref="R11"  Part="1" 
+AR Path="/5E295828/5E394586" Ref="R13"  Part="1" 
+AR Path="/5E336639/5E394586" Ref="R15"  Part="1" 
+AR Path="/5E33A08D/5E394586" Ref="R17"  Part="1" 
+AR Path="/5E291A12/5E394586" Ref="R43"  Part="1" 
+F 0 "R43" V 3493 3500 50  0000 C CNN
+F 1 "680" V 3584 3500 50  0000 C CNN
+F 2 "motor_drive_footprints:C_0603_1608Metric" V 3630 3500 50  0001 C CNN
+F 3 "~" H 3700 3500 50  0001 C CNN
+	1    3700 3500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3850 3500 4100 3500
+Connection ~ 4100 3500
+Wire Wire Line
+	3550 3500 3450 3500
 $EndSCHEMATC

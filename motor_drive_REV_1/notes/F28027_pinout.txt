@@ -1,0 +1,60 @@
+pinout
+1.  UART_TX
+2.  nTRST
+	-> NC
+	-> internal pulldowns
+	-> when driven high gives scan system control
+3.  nXRS
+4.  ADC_A6
+5.  ADC_A4
+6.  ADC_A7
+7.  ADC_A3
+8.  ADC_A1
+9.  ADC_A2
+10. ADC_A0
+11. VDDA
+	-> analog power pin
+	-> 2.2uF close to pin
+12. VSSA
+	-> analog GND pin
+	-> ADC external ref
+13. ADC_IN_B1
+	-> ADC Group B
+	-> Channel 1 input
+14. ADC_IN_B2
+15. ADC_IN_B3
+16. ADC_IN_B4  // ADC_IN_B5 truely does not exist
+17. ADC_IN_B6
+18. ADC_IN_B7 
+19. GPIO_34
+20. TDI
+21. TMS
+22. TDO
+23. TCK
+24. SPI_CLK
+25. SPI_nENABLE
+26. SPI_MISO
+27. SPI_MOSI
+28. PWM_2
+29. PWM_1
+30. TEST, NC
+31. GPIO_32
+32. VDD
+33. VSS
+34. nVREGENZ
+35. VDDIO
+36. GPIO_33
+37. PWM3
+38. PWM4
+39. PWM5
+40. PWM6
+41. GPIO_6
+42. GPIO_7
+43. VDD
+44. VSS
+45. X1
+	-> tied to GND
+46. X2
+	-> NC
+
+
