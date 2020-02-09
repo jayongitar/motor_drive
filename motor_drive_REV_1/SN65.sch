@@ -13,11 +13,11 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 7900 4800 2    50   Input ~ 0
+Text HLabel 9300 4100 2    50   Input ~ 0
 GND
 Wire Wire Line
 	7000 3800 7150 3800
-Text HLabel 7900 2250 2    50   Input ~ 0
+Text HLabel 9300 3200 2    50   Input ~ 0
 VCC
 Wire Wire Line
 	7000 3500 7150 3500
@@ -29,15 +29,11 @@ Wire Wire Line
 	4800 3600 4500 3600
 Wire Wire Line
 	4500 3600 4500 3700
-Wire Wire Line
-	7150 4800 7900 4800
-Wire Wire Line
-	7900 2250 7150 2250
 $Comp
-L motor_drive:R R21
+L motor_drive:R R15
 U 1 1 5E39658B
 P 3350 3500
-F 0 "R21" H 3420 3546 50  0000 L CNN
+F 0 "R15" H 3420 3546 50  0000 L CNN
 F 1 "NP" H 3420 3455 50  0000 L CNN
 F 2 "motor_drive_footprints:C_0603_1608Metric" V 3280 3500 50  0001 C CNN
 F 3 "~" H 3350 3500 50  0001 C CNN
@@ -54,11 +50,11 @@ Connection ~ 3350 3700
 Wire Wire Line
 	3350 3700 3350 3750
 $Comp
-L motor_drive:C C15
+L motor_drive:C C14
 U 1 1 5E39B417
 P 5500 4650
-F 0 "C15" H 5615 4696 50  0000 L CNN
-F 1 "1uF" H 5615 4605 50  0000 L CNN
+F 0 "C14" H 5615 4696 50  0000 L CNN
+F 1 "2.2uF" H 5615 4605 50  0000 L CNN
 F 2 "motor_drive_footprints:C_0603_1608Metric" H 5538 4500 50  0001 C CNN
 F 3 "~" H 5500 4650 50  0001 C CNN
 	1    5500 4650
@@ -75,34 +71,32 @@ F 3 "" H 4800 3500 60  0000 C CNN
 	1    4800 3500
 	1    0    0    -1  
 $EndComp
-Text Label 5500 4500 0    50   ~ 0
+Text Label 5800 4400 0    50   ~ 0
 5.0V
-Text Label 5500 4800 0    50   ~ 0
-GND
 $Comp
-L motor_drive:R R22
+L motor_drive:R R16
 U 1 1 5E39AB4E
 P 3350 3900
-F 0 "R22" H 3420 3946 50  0000 L CNN
+F 0 "R16" H 3420 3946 50  0000 L CNN
 F 1 "4.7k" H 3420 3855 50  0000 L CNN
 F 2 "motor_drive_footprints:C_0603_1608Metric" V 3280 3900 50  0001 C CNN
 F 3 "~" H 3350 3900 50  0001 C CNN
 	1    3350 3900
 	1    0    0    -1  
 $EndComp
-Text Label 7150 2250 0    50   ~ 0
+Text Label 7250 3200 0    50   ~ 0
 5.0V
-Text Label 7150 4800 0    50   ~ 0
+Text Label 7250 4750 0    50   ~ 0
 GND
 Text Label 3350 3350 0    50   ~ 0
 5.0V
 Text Label 3350 4050 0    50   ~ 0
 GND
 $Comp
-L motor_drive:R R23
+L motor_drive:R R17
 U 1 1 5E3A24BE
 P 4350 3500
-F 0 "R23" H 4420 3546 50  0000 L CNN
+F 0 "R17" H 4420 3546 50  0000 L CNN
 F 1 "375" H 4420 3455 50  0000 L CNN
 F 2 "motor_drive_footprints:C_0603_1608Metric" V 4280 3500 50  0001 C CNN
 F 3 "~" H 4350 3500 50  0001 C CNN
@@ -110,10 +104,10 @@ F 3 "~" H 4350 3500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L motor_drive:R R24
+L motor_drive:R R18
 U 1 1 5E3A2A5B
 P 4350 3800
-F 0 "R24" H 4420 3846 50  0000 L CNN
+F 0 "R18" H 4420 3846 50  0000 L CNN
 F 1 "375" H 4420 3755 50  0000 L CNN
 F 2 "motor_drive_footprints:C_0603_1608Metric" V 4280 3800 50  0001 C CNN
 F 3 "~" H 4350 3800 50  0001 C CNN
@@ -134,176 +128,177 @@ Wire Wire Line
 Wire Wire Line
 	4500 3800 4800 3800
 $Comp
-L motor_drive:R R27
+L motor_drive:R R19
 U 1 1 5E33ED83
-P 7650 5100
-F 0 "R27" H 7720 5146 50  0000 L CNN
-F 1 "375" H 7720 5055 50  0000 L CNN
-F 2 "motor_drive_footprints:C_0603_1608Metric" V 7580 5100 50  0001 C CNN
-F 3 "~" H 7650 5100 50  0001 C CNN
-	1    7650 5100
+P 7650 4750
+F 0 "R19" H 7720 4796 50  0000 L CNN
+F 1 "375" H 7720 4705 50  0000 L CNN
+F 2 "motor_drive_footprints:C_0603_1608Metric" V 7580 4750 50  0001 C CNN
+F 3 "~" H 7650 4750 50  0001 C CNN
+	1    7650 4750
 	0    -1   -1   0   
 $EndComp
-Text Label 7800 5100 1    50   ~ 0
-GND
-Text HLabel 7900 5100 2    50   Input ~ 0
+Text HLabel 7900 4750 2    50   Input ~ 0
 balance
 Wire Wire Line
-	7800 5100 7900 5100
+	7800 4750 7900 4750
 Wire Wire Line
-	7500 5100 7150 5100
-Wire Wire Line
-	7150 5100 7150 4800
-Connection ~ 7150 4800
+	7500 4750 7150 4750
 $Comp
-L motor_drive:R R28
+L motor_drive:R R21
 U 1 1 5E390D6F
-P 7700 3650
-F 0 "R28" H 7770 3696 50  0000 L CNN
-F 1 "120" H 7770 3605 50  0000 L CNN
-F 2 "motor_drive_footprints:C_0603_1608Metric" V 7630 3650 50  0001 C CNN
-F 3 "~" H 7700 3650 50  0001 C CNN
-	1    7700 3650
+P 8300 3650
+F 0 "R21" H 8370 3696 50  0000 L CNN
+F 1 "120" H 8370 3605 50  0000 L CNN
+F 2 "motor_drive_footprints:C_0603_1608Metric" V 8230 3650 50  0001 C CNN
+F 3 "~" H 8300 3650 50  0001 C CNN
+	1    8300 3650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	7450 3700 7450 3800
-Text HLabel 8500 3500 2    50   Input ~ 0
+Text HLabel 9300 3500 2    50   Input ~ 0
 B
-Text HLabel 8500 3800 2    50   Input ~ 0
+Text HLabel 9300 3800 2    50   Input ~ 0
 A
-Wire Wire Line
-	7700 3500 8100 3500
-Connection ~ 7700 3800
-Wire Wire Line
-	7700 3800 8100 3800
-Wire Wire Line
-	7450 3800 7700 3800
 $Comp
-L motor_drive:R R26
+L motor_drive:R R22
 U 1 1 5E37C57B
-P 7300 4000
-F 0 "R26" H 7370 4046 50  0000 L CNN
-F 1 "680" H 7370 3955 50  0000 L CNN
-F 2 "motor_drive_footprints:C_0603_1608Metric" V 7230 4000 50  0001 C CNN
-F 3 "~" H 7300 4000 50  0001 C CNN
-	1    7300 4000
-	0    -1   -1   0   
-$EndComp
-$Comp
-L motor_drive:R R25
-U 1 1 5E37CBBC
-P 7300 3300
-F 0 "R25" H 7370 3346 50  0000 L CNN
-F 1 "680" H 7370 3255 50  0000 L CNN
-F 2 "motor_drive_footprints:C_0603_1608Metric" V 7230 3300 50  0001 C CNN
-F 3 "~" H 7300 3300 50  0001 C CNN
-	1    7300 3300
-	0    -1   -1   0   
+P 8300 3950
+F 0 "R22" H 8370 3996 50  0000 L CNN
+F 1 "680" H 8370 3905 50  0000 L CNN
+F 2 "motor_drive_footprints:C_0603_1608Metric" V 8230 3950 50  0001 C CNN
+F 3 "~" H 8300 3950 50  0001 C CNN
+	1    8300 3950
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	7000 3600 7450 3600
 Wire Wire Line
 	7000 3700 7450 3700
 $Comp
-L motor_drive:R R29
+L motor_drive:R R23
 U 1 1 5E37EDA8
-P 8250 3500
-F 0 "R29" H 8320 3546 50  0000 L CNN
-F 1 "375" H 8320 3455 50  0000 L CNN
-F 2 "motor_drive_footprints:C_0603_1608Metric" V 8180 3500 50  0001 C CNN
-F 3 "~" H 8250 3500 50  0001 C CNN
-	1    8250 3500
+P 9050 3500
+F 0 "R23" H 9120 3546 50  0000 L CNN
+F 1 "375" H 9120 3455 50  0000 L CNN
+F 2 "motor_drive_footprints:C_0603_1608Metric" V 8980 3500 50  0001 C CNN
+F 3 "~" H 9050 3500 50  0001 C CNN
+	1    9050 3500
 	0    -1   -1   0   
 $EndComp
 $Comp
-L motor_drive:R R30
+L motor_drive:R R24
 U 1 1 5E37F275
-P 8250 3800
-F 0 "R30" H 8320 3846 50  0000 L CNN
-F 1 "375" H 8320 3755 50  0000 L CNN
-F 2 "motor_drive_footprints:C_0603_1608Metric" V 8180 3800 50  0001 C CNN
-F 3 "~" H 8250 3800 50  0001 C CNN
-	1    8250 3800
+P 9050 3800
+F 0 "R24" H 9120 3846 50  0000 L CNN
+F 1 "375" H 9120 3755 50  0000 L CNN
+F 2 "motor_drive_footprints:C_0603_1608Metric" V 8980 3800 50  0001 C CNN
+F 3 "~" H 9050 3800 50  0001 C CNN
+	1    9050 3800
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	8400 3500 8500 3500
+	9200 3500 9300 3500
 Wire Wire Line
-	8400 3800 8500 3800
-Wire Wire Line
-	7150 3800 7150 4000
-Wire Wire Line
-	7150 2250 7150 3300
-Connection ~ 7150 4000
-Wire Wire Line
-	7150 4000 7150 4350
-Connection ~ 7150 3300
-Wire Wire Line
-	7150 3300 7150 3500
-$Comp
-L motor_drive:C C18
-U 1 1 5E386871
-P 7300 4350
-F 0 "C18" H 7415 4396 50  0000 L CNN
-F 1 "1uF" H 7415 4305 50  0000 L CNN
-F 2 "motor_drive_footprints:C_0603_1608Metric" H 7338 4200 50  0001 C CNN
-F 3 "~" H 7300 4350 50  0001 C CNN
-	1    7300 4350
-	0    -1   -1   0   
-$EndComp
-Text Label 7150 4300 1    50   ~ 0
-5.0V
-Text Label 7450 4350 1    50   ~ 0
-GND
+	9200 3800 9300 3800
 $Comp
 L motor_drive:C C17
-U 1 1 5E387278
-P 7300 2950
-F 0 "C17" H 7415 2996 50  0000 L CNN
-F 1 "1nF" H 7415 2905 50  0000 L CNN
-F 2 "motor_drive_footprints:C_0603_1608Metric" H 7338 2800 50  0001 C CNN
-F 3 "~" H 7300 2950 50  0001 C CNN
-	1    7300 2950
-	0    -1   -1   0   
+U 1 1 5E386871
+P 7900 3950
+F 0 "C17" H 8015 3996 50  0000 L CNN
+F 1 "680pF" H 8015 3905 50  0000 L CNN
+F 2 "motor_drive_footprints:C_0603_1608Metric" H 7938 3800 50  0001 C CNN
+F 3 "~" H 7900 3950 50  0001 C CNN
+	1    7900 3950
+	-1   0    0    1   
 $EndComp
-Text Label 7150 2950 1    50   ~ 0
-5.0V
-Text Label 7450 2950 1    50   ~ 0
-GND
-Wire Wire Line
-	7450 3800 7450 4000
-Connection ~ 7450 3800
 Wire Wire Line
 	7450 3600 7450 3500
-Wire Wire Line
-	7450 3300 7450 2950
-Connection ~ 7450 3300
-Connection ~ 7150 4350
-Wire Wire Line
-	7150 4350 7150 4800
-Wire Wire Line
-	7450 4000 7450 4350
-Connection ~ 7450 4000
-Wire Wire Line
-	7700 3500 7450 3500
-Connection ~ 7700 3500
-Connection ~ 7450 3500
-Wire Wire Line
-	7450 3500 7450 3300
 $Comp
-L motor_drive:C C16
+L motor_drive:C C15
 U 1 1 5E3AD083
 P 6100 4650
-F 0 "C16" H 6215 4696 50  0000 L CNN
+F 0 "C15" H 6215 4696 50  0000 L CNN
 F 1 "0.01uF" H 6215 4605 50  0000 L CNN
 F 2 "motor_drive_footprints:C_0603_1608Metric" H 6138 4500 50  0001 C CNN
 F 3 "~" H 6100 4650 50  0001 C CNN
 	1    6100 4650
 	1    0    0    -1  
 $EndComp
-Text Label 6100 4500 0    50   ~ 0
-5.0V
-Text Label 6100 4800 0    50   ~ 0
+Connection ~ 8300 3500
+Wire Wire Line
+	8300 3500 8900 3500
+Connection ~ 8300 3800
+Wire Wire Line
+	8300 3800 8900 3800
+Wire Wire Line
+	7450 3800 7900 3800
+Connection ~ 7900 3800
+Wire Wire Line
+	7900 3800 8300 3800
+$Comp
+L motor_drive:R R20
+U 1 1 5E5DB1A4
+P 8300 3350
+F 0 "R20" H 8370 3396 50  0000 L CNN
+F 1 "680" H 8370 3305 50  0000 L CNN
+F 2 "motor_drive_footprints:C_0603_1608Metric" V 8230 3350 50  0001 C CNN
+F 3 "~" H 8300 3350 50  0001 C CNN
+	1    8300 3350
+	-1   0    0    1   
+$EndComp
+$Comp
+L motor_drive:C C16
+U 1 1 5E5DB1AA
+P 7900 3350
+F 0 "C16" H 8015 3396 50  0000 L CNN
+F 1 "680pF" H 8015 3305 50  0000 L CNN
+F 2 "motor_drive_footprints:C_0603_1608Metric" H 7938 3200 50  0001 C CNN
+F 3 "~" H 7900 3350 50  0001 C CNN
+	1    7900 3350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7150 3800 7150 4100
+Wire Wire Line
+	8300 4100 9300 4100
+Wire Wire Line
+	8300 4100 7900 4100
+Connection ~ 8300 4100
+Wire Wire Line
+	7900 4100 7150 4100
+Connection ~ 7900 4100
+Wire Wire Line
+	8300 3200 9300 3200
+Wire Wire Line
+	8300 3200 7900 3200
+Connection ~ 8300 3200
+Wire Wire Line
+	7900 3200 7150 3200
+Connection ~ 7900 3200
+Wire Wire Line
+	7150 3200 7150 3500
+Wire Wire Line
+	8300 3500 7900 3500
+Wire Wire Line
+	7900 3500 7450 3500
+Connection ~ 7900 3500
+Wire Wire Line
+	7150 4100 7150 4750
+Connection ~ 7150 4100
+Wire Wire Line
+	5500 4500 5500 4400
+Wire Wire Line
+	5500 4400 6100 4400
+Wire Wire Line
+	6100 4400 6100 4500
+Wire Wire Line
+	6100 4900 6100 4800
+Wire Wire Line
+	6100 4900 5500 4900
+Wire Wire Line
+	5500 4900 5500 4800
+Text Label 5800 4900 0    50   ~ 0
 GND
 $EndSCHEMATC

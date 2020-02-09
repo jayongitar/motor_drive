@@ -25,11 +25,11 @@ F 3 "http://www.onsemi.com/pub/Collateral/FAN7888-D.pdf" H 5350 3450 50  0001 C 
 	1    0    0    -1  
 $EndComp
 $Comp
-L motor_drive:C C21
+L motor_drive:C C20
 U 1 1 5E290119
 P 6600 2800
-F 0 "C21" V 6348 2800 50  0000 C CNN
-F 1 "C" V 6439 2800 50  0000 C CNN
+F 0 "C20" V 6348 2800 50  0000 C CNN
+F 1 "0.22uF" V 6439 2800 50  0000 C CNN
 F 2 "motor_drive_footprints:C_0603_1608Metric" H 6638 2650 50  0001 C CNN
 F 3 "~" H 6600 2800 50  0001 C CNN
 	1    6600 2800
@@ -40,22 +40,22 @@ GH_1
 Text HLabel 5750 3050 2    50   Input ~ 0
 GL_1
 $Comp
-L motor_drive:C C22
+L motor_drive:C C21
 U 1 1 5E291813
 P 6600 3300
-F 0 "C22" V 6348 3300 50  0000 C CNN
-F 1 "C" V 6439 3300 50  0000 C CNN
+F 0 "C21" V 6348 3300 50  0000 C CNN
+F 1 "0.22uF" V 6439 3300 50  0000 C CNN
 F 2 "motor_drive_footprints:C_0603_1608Metric" H 6638 3150 50  0001 C CNN
 F 3 "~" H 6600 3300 50  0001 C CNN
 	1    6600 3300
 	1    0    0    -1  
 $EndComp
 $Comp
-L motor_drive:C C23
+L motor_drive:C C22
 U 1 1 5E291C33
 P 6600 3800
-F 0 "C23" V 6348 3800 50  0000 C CNN
-F 1 "C" V 6439 3800 50  0000 C CNN
+F 0 "C22" V 6348 3800 50  0000 C CNN
+F 1 "0.22uF" V 6439 3800 50  0000 C CNN
 F 2 "motor_drive_footprints:C_0603_1608Metric" H 6638 3650 50  0001 C CNN
 F 3 "~" H 6600 3800 50  0001 C CNN
 	1    6600 3800
@@ -203,11 +203,11 @@ Wire Wire Line
 Wire Wire Line
 	3550 3250 3550 3150
 $Comp
-L motor_drive:C C19
+L motor_drive:C C18
 U 1 1 5E3AA0F7
 P 3550 3400
-F 0 "C19" V 3298 3400 50  0000 C CNN
-F 1 "C" V 3389 3400 50  0000 C CNN
+F 0 "C18" V 3298 3400 50  0000 C CNN
+F 1 "2.2uF" V 3389 3400 50  0000 C CNN
 F 2 "motor_drive_footprints:C_0603_1608Metric" H 3588 3250 50  0001 C CNN
 F 3 "~" H 3550 3400 50  0001 C CNN
 	1    3550 3400
@@ -220,11 +220,11 @@ Connection ~ 4100 3150
 Wire Wire Line
 	4100 3250 4100 3150
 $Comp
-L motor_drive:C C20
+L motor_drive:C C19
 U 1 1 5E3A6EC9
 P 4100 3400
-F 0 "C20" V 3848 3400 50  0000 C CNN
-F 1 "C" V 3939 3400 50  0000 C CNN
+F 0 "C19" V 3848 3400 50  0000 C CNN
+F 1 "0.01uF" V 3939 3400 50  0000 C CNN
 F 2 "motor_drive_footprints:C_0603_1608Metric" H 4138 3250 50  0001 C CNN
 F 3 "~" H 4100 3400 50  0001 C CNN
 	1    4100 3400

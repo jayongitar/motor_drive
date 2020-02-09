@@ -87,28 +87,28 @@ F 3 "~" H 5000 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L motor_drive:R R2
+L motor_drive:R R4
 U 1 1 5E27A2EF
 P 4550 4000
-AR Path="/5E257703/5E27A2EF" Ref="R2"  Part="1" 
-AR Path="/5E26944C/5E27A2EF" Ref="R5"  Part="1" 
-AR Path="/5E26B60E/5E27A2EF" Ref="R8"  Part="1" 
-F 0 "R8" V 4343 4000 50  0000 C CNN
-F 1 "R" V 4434 4000 50  0000 C CNN
+AR Path="/5E257703/5E27A2EF" Ref="R4"  Part="1" 
+AR Path="/5E26944C/5E27A2EF" Ref="R7"  Part="1" 
+AR Path="/5E26B60E/5E27A2EF" Ref="R10"  Part="1" 
+F 0 "R10" V 4343 4000 50  0000 C CNN
+F 1 "10" V 4434 4000 50  0000 C CNN
 F 2 "motor_drive_footprints:C_0603_1608Metric" V 4480 4000 50  0001 C CNN
 F 3 "~" H 4550 4000 50  0001 C CNN
 	1    4550 4000
 	0    1    1    0   
 $EndComp
 $Comp
-L motor_drive:R R1
+L motor_drive:R R3
 U 1 1 5E27D5F7
 P 4550 3400
-AR Path="/5E257703/5E27D5F7" Ref="R1"  Part="1" 
-AR Path="/5E26944C/5E27D5F7" Ref="R4"  Part="1" 
-AR Path="/5E26B60E/5E27D5F7" Ref="R7"  Part="1" 
-F 0 "R7" V 4343 3400 50  0000 C CNN
-F 1 "R" V 4434 3400 50  0000 C CNN
+AR Path="/5E257703/5E27D5F7" Ref="R3"  Part="1" 
+AR Path="/5E26944C/5E27D5F7" Ref="R6"  Part="1" 
+AR Path="/5E26B60E/5E27D5F7" Ref="R9"  Part="1" 
+F 0 "R9" V 4343 3400 50  0000 C CNN
+F 1 "10" V 4434 3400 50  0000 C CNN
 F 2 "motor_drive_footprints:C_0603_1608Metric" V 4480 3400 50  0001 C CNN
 F 3 "~" H 4550 3400 50  0001 C CNN
 	1    4550 3400
@@ -129,14 +129,14 @@ Wire Wire Line
 Wire Wire Line
 	5100 4300 5100 4200
 $Comp
-L motor_drive:R R3
+L motor_drive:R R5
 U 1 1 5E35BEDA
 P 5900 3700
-AR Path="/5E257703/5E35BEDA" Ref="R3"  Part="1" 
-AR Path="/5E26944C/5E35BEDA" Ref="R6"  Part="1" 
-AR Path="/5E26B60E/5E35BEDA" Ref="R9"  Part="1" 
-F 0 "R9" V 5693 3700 50  0000 C CNN
-F 1 "R" V 5784 3700 50  0000 C CNN
+AR Path="/5E257703/5E35BEDA" Ref="R5"  Part="1" 
+AR Path="/5E26944C/5E35BEDA" Ref="R8"  Part="1" 
+AR Path="/5E26B60E/5E35BEDA" Ref="R11"  Part="1" 
+F 0 "R11" V 5693 3700 50  0000 C CNN
+F 1 "0.005" V 5784 3700 50  0000 C CNN
 F 2 "motor_drive_footprints:C_0603_1608Metric" V 5830 3700 50  0001 C CNN
 F 3 "~" H 5900 3700 50  0001 C CNN
 	1    5900 3700

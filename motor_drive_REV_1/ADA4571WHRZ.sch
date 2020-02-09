@@ -57,11 +57,11 @@ NoConn ~ 4450 4050
 Wire Wire Line
 	4450 4150 3550 4150
 $Comp
-L motor_drive:C C14
+L motor_drive:C C12
 U 1 1 5E374B8C
 P 3550 4000
-F 0 "C14" V 3298 4000 50  0000 C CNN
-F 1 "C" V 3389 4000 50  0000 C CNN
+F 0 "C12" V 3298 4000 50  0000 C CNN
+F 1 "2.2uF" V 3389 4000 50  0000 C CNN
 F 2 "motor_drive_footprints:C_0603_1608Metric" H 3588 3850 50  0001 C CNN
 F 3 "~" H 3550 4000 50  0001 C CNN
 	1    3550 4000
@@ -72,4 +72,15 @@ Wire Wire Line
 Wire Wire Line
 	3550 3850 3400 3850
 Connection ~ 3550 3850
+$Comp
+L motor_drive:C C13
+U 1 1 5E5D273D
+P 4100 4000
+F 0 "C13" V 3848 4000 50  0000 C CNN
+F 1 "0.01uF" V 3939 4000 50  0000 C CNN
+F 2 "motor_drive_footprints:C_0603_1608Metric" H 4138 3850 50  0001 C CNN
+F 3 "~" H 4100 4000 50  0001 C CNN
+	1    4100 4000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
