@@ -140,9 +140,9 @@ $EndComp
 Text Label 12450 7000 0    50   ~ 0
 GND
 Text Label 12450 5450 0    50   ~ 0
-SPI_MISO
-Text Label 12450 5550 0    50   ~ 0
 SPI_MOSI
+Text Label 12450 5550 0    50   ~ 0
+SPI_MISO
 Text Label 12450 5650 0    50   ~ 0
 SPI_CLK
 Text Label 12450 5750 0    50   ~ 0

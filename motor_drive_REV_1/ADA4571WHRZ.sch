@@ -54,8 +54,6 @@ COS
 Text HLabel 3400 3850 0    50   Input ~ 0
 VDD
 NoConn ~ 4450 4050
-Wire Wire Line
-	4450 4150 3550 4150
 $Comp
 L motor_drive:C C21
 U 1 1 5E374B8C
@@ -68,10 +66,7 @@ F 3 "~" H 3550 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4450 3850 3550 3850
-Wire Wire Line
 	3550 3850 3400 3850
-Connection ~ 3550 3850
 $Comp
 L motor_drive:C C22
 U 1 1 5E5D273D
@@ -83,4 +78,16 @@ F 3 "~" H 4100 4000 50  0001 C CNN
 	1    4100 4000
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	3550 3850 4100 3850
+Connection ~ 3550 3850
+Connection ~ 4100 3850
+Wire Wire Line
+	4100 3850 4450 3850
+Wire Wire Line
+	3550 4150 4100 4150
+Connection ~ 3550 4150
+Connection ~ 4100 4150
+Wire Wire Line
+	4100 4150 4450 4150
 $EndSCHEMATC
