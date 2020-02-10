@@ -1,0 +1,84 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 15 15
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	5500 3600 5500 3500
+Wire Wire Line
+	5500 3500 6000 3500
+Wire Wire Line
+	6000 3500 6000 3600
+Wire Wire Line
+	5500 3900 5500 4000
+Wire Wire Line
+	5500 4000 6000 4000
+Wire Wire Line
+	6000 4000 6000 3900
+Text HLabel 5500 4000 0    50   Input ~ 0
+GND
+Text HLabel 5500 3500 0    50   Input ~ 0
+signal
+Text HLabel 5500 4000 0    50   Input ~ 0
+GND
+Text HLabel 5500 3500 0    50   Input ~ 0
+signal
+Text HLabel 5500 4000 0    50   Input ~ 0
+GND
+Text HLabel 5500 3500 0    50   Input ~ 0
+signal
+Text HLabel 5500 4000 0    50   Input ~ 0
+GND
+Text HLabel 5500 3500 0    50   Input ~ 0
+signal
+Text HLabel 5500 4000 0    50   Input ~ 0
+GND
+Text HLabel 5500 3500 0    50   Input ~ 0
+signal
+Text HLabel 5500 4000 0    50   Input ~ 0
+GND
+Text HLabel 5500 3500 0    50   Input ~ 0
+signal
+Text HLabel 5500 4000 0    50   Input ~ 0
+GND
+Text HLabel 5500 3500 0    50   Input ~ 0
+signal
+Text HLabel 5500 4000 0    50   Input ~ 0
+GND
+Text HLabel 5500 3500 0    50   Input ~ 0
+signal
+$Comp
+L motor_drive:R R?
+U 1 1 5E41635D
+P 6000 3750
+AR Path="/5E2C4A87/5E41635D" Ref="R?"  Part="1" 
+AR Path="/5E40780F/5E41635D" Ref="R?"  Part="1" 
+F 0 "R?" H 6070 3796 50  0000 L CNN
+F 1 "10k" H 6070 3705 50  0000 L CNN
+F 2 "motor_drive_footprints:C_0603_1608Metric" V 5930 3750 50  0001 C CNN
+F 3 "~" H 6000 3750 50  0001 C CNN
+	1    6000 3750
+	-1   0    0    1   
+$EndComp
+$Comp
+L motor_drive:C C?
+U 1 1 5E416EB7
+P 5500 3750
+F 0 "C?" H 5615 3796 50  0000 L CNN
+F 1 "1uF" H 5615 3705 50  0000 L CNN
+F 2 "motor_drive_footprints:C_0603_1608Metric" H 5538 3600 50  0001 C CNN
+F 3 "~" H 5500 3750 50  0001 C CNN
+	1    5500 3750
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

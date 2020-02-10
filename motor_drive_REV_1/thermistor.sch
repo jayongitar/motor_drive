@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 15 15
+Sheet 15 16
 Title ""
 Date ""
 Rev ""
@@ -14,118 +14,61 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L motor_drive:R R44
-U 1 1 5E6227DE
-P 5400 2750
-AR Path="/5E61C379/5E6227DE" Ref="R44"  Part="1" 
-AR Path="/5E61FCEC/5E6227DE" Ref="R?"  Part="1" 
-AR Path="/5E626DD7/5E6227DE" Ref="R?"  Part="1" 
-F 0 "R?" H 5470 2796 50  0000 L CNN
-F 1 "3k" H 5470 2705 50  0000 L CNN
-F 2 "motor_drive_footprints:C_0603_1608Metric" V 5330 2750 50  0001 C CNN
-F 3 "~" H 5400 2750 50  0001 C CNN
-	1    5400 2750
+L motor_drive:R R43
+U 1 1 5E41A8AA
+P 5500 4250
+F 0 "R43" H 5570 4296 50  0000 L CNN
+F 1 "R" H 5570 4205 50  0000 L CNN
+F 2 "motor_drive_footprints:C_0603_1608Metric" V 5430 4250 50  0001 C CNN
+F 3 "~" H 5500 4250 50  0001 C CNN
+	1    5500 4250
 	1    0    0    -1  
 $EndComp
 $Comp
-L motor_drive:C C33
-U 1 1 5E6227DF
-P 4500 2750
-AR Path="/5E61C379/5E6227DF" Ref="C33"  Part="1" 
-AR Path="/5E61FCEC/5E6227DF" Ref="C?"  Part="1" 
-AR Path="/5E626DD7/5E6227DF" Ref="C?"  Part="1" 
-F 0 "C?" H 4615 2796 50  0000 L CNN
-F 1 "2.2uF" H 4615 2705 50  0000 L CNN
-F 2 "motor_drive_footprints:C_0603_1608Metric" H 4538 2600 50  0001 C CNN
-F 3 "~" H 4500 2750 50  0001 C CNN
-	1    4500 2750
+L motor_drive:C C43
+U 1 1 5E41AB44
+P 6000 4250
+F 0 "C43" H 6115 4296 50  0000 L CNN
+F 1 "C" H 6115 4205 50  0000 L CNN
+F 2 "motor_drive_footprints:C_0603_1608Metric" H 6038 4100 50  0001 C CNN
+F 3 "~" H 6000 4250 50  0001 C CNN
+	1    6000 4250
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J6
-U 1 1 5E6227E0
-P 5200 2200
-AR Path="/5E61C379/5E6227E0" Ref="J6"  Part="1" 
-AR Path="/5E61FCEC/5E6227E0" Ref="J?"  Part="1" 
-AR Path="/5E626DD7/5E6227E0" Ref="J?"  Part="1" 
-F 0 "J?" H 5280 2192 50  0000 L CNN
-F 1 "Conn_01x02" H 5280 2101 50  0000 L CNN
-F 2 "" H 5200 2200 50  0001 C CNN
-F 3 "~" H 5200 2200 50  0001 C CNN
-	1    5200 2200
+U 1 1 5E41B07F
+P 6200 3700
+F 0 "J6" H 6280 3692 50  0000 L CNN
+F 1 "Conn_01x02" H 6280 3601 50  0000 L CNN
+F 2 "motor_drive_footprints:2pos_254" H 6200 3700 50  0001 C CNN
+F 3 "~" H 6200 3700 50  0001 C CNN
+	1    6200 3700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4500 2600 4500 2500
+	5500 3500 6000 3500
 Wire Wire Line
-	4500 2500 5000 2500
+	6000 3500 6000 3700
 Wire Wire Line
-	5000 2500 5000 2600
+	6000 3800 6000 4000
 Wire Wire Line
-	4500 2900 4500 3000
+	5500 4100 5500 4000
 Wire Wire Line
-	4500 3000 5000 3000
+	5500 4000 6000 4000
+Connection ~ 6000 4000
 Wire Wire Line
-	5000 3000 5000 2900
-Text HLabel 4500 3000 0    50   Input ~ 0
-GND
-Text HLabel 4500 2500 0    50   Input ~ 0
-signal
-Text HLabel 4500 2000 0    50   Input ~ 0
+	6000 4000 6000 4100
+Wire Wire Line
+	5500 4400 5500 4500
+Wire Wire Line
+	5500 4500 6000 4500
+Wire Wire Line
+	6000 4500 6000 4400
+Text HLabel 5500 3500 0    50   Input ~ 0
 5.0V
-Wire Wire Line
-	4500 2000 5000 2000
-Wire Wire Line
-	5000 2000 5000 2200
-Wire Wire Line
-	5000 2300 5000 2500
-Connection ~ 5000 2500
-$Comp
-L motor_drive:R R?
-U 1 1 5E61C762
-P 5400 2750
-AR Path="/5E61FCEC/5E61C762" Ref="R?"  Part="1" 
-AR Path="/5E61C379/5E61C762" Ref="R43"  Part="1" 
-AR Path="/5E626DD7/5E61C762" Ref="R?"  Part="1" 
-F 0 "R?" H 5470 2796 50  0000 L CNN
-F 1 "3k" H 5470 2705 50  0000 L CNN
-F 2 "motor_drive_footprints:C_0603_1608Metric" V 5330 2750 50  0001 C CNN
-F 3 "~" H 5400 2750 50  0001 C CNN
-	1    5400 2750
-	1    0    0    -1  
-$EndComp
-$Comp
-L motor_drive:C C?
-U 1 1 5E61CC30
-P 4500 2750
-AR Path="/5E61FCEC/5E61CC30" Ref="C?"  Part="1" 
-AR Path="/5E61C379/5E61CC30" Ref="C32"  Part="1" 
-AR Path="/5E626DD7/5E61CC30" Ref="C?"  Part="1" 
-F 0 "C?" H 4615 2796 50  0000 L CNN
-F 1 "2.2uF" H 4615 2705 50  0000 L CNN
-F 2 "motor_drive_footprints:C_0603_1608Metric" H 4538 2600 50  0001 C CNN
-F 3 "~" H 4500 2750 50  0001 C CNN
-	1    4500 2750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J?
-U 1 1 5E61D49C
-P 5200 2200
-AR Path="/5E61FCEC/5E61D49C" Ref="J?"  Part="1" 
-AR Path="/5E61C379/5E61D49C" Ref="J5"  Part="1" 
-AR Path="/5E626DD7/5E61D49C" Ref="J?"  Part="1" 
-F 0 "J?" H 5280 2192 50  0000 L CNN
-F 1 "Conn_01x02" H 5280 2101 50  0000 L CNN
-F 2 "" H 5200 2200 50  0001 C CNN
-F 3 "~" H 5200 2200 50  0001 C CNN
-	1    5200 2200
-	1    0    0    -1  
-$EndComp
-Text HLabel 4500 3000 0    50   Input ~ 0
-GND
-Text HLabel 4500 2500 0    50   Input ~ 0
+Text HLabel 5500 4000 0    50   Input ~ 0
 signal
-Text HLabel 4500 2000 0    50   Input ~ 0
-5.0V
+Text HLabel 5500 4500 0    50   Input ~ 0
+GND
 $EndSCHEMATC

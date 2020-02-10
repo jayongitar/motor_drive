@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr B 17000 11000
 encoding utf-8
-Sheet 13 15
+Sheet 13 16
 Title ""
 Date ""
 Rev ""
@@ -33,10 +33,10 @@ Text HLabel 4200 2750 0    50   Input ~ 0
 Text HLabel 4200 3350 0    50   Input ~ 0
 GND
 $Comp
-L motor_drive:C C29
+L motor_drive:C C40
 U 1 1 5E2D37BE
 P 8700 6750
-F 0 "C29" H 8815 6796 50  0000 L CNN
+F 0 "C40" H 8815 6796 50  0000 L CNN
 F 1 "1uF" H 8815 6705 50  0000 L CNN
 F 2 "motor_drive_footprints:C_0603_1608Metric" H 8738 6600 50  0001 C CNN
 F 3 "~" H 8700 6750 50  0001 C CNN
@@ -44,10 +44,10 @@ F 3 "~" H 8700 6750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L motor_drive:C C27
+L motor_drive:C C38
 U 1 1 5E2C88ED
 P 7000 7250
-F 0 "C27" H 7115 7296 50  0000 L CNN
+F 0 "C38" H 7115 7296 50  0000 L CNN
 F 1 "100pF" H 7115 7205 50  0000 L CNN
 F 2 "motor_drive_footprints:C_0603_1608Metric" H 7038 7100 50  0001 C CNN
 F 3 "~" H 7000 7250 50  0001 C CNN
@@ -70,10 +70,10 @@ F 3 "~" H 8350 6400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L motor_drive:C C28
+L motor_drive:C C39
 U 1 1 5E311B08
 P 8000 6750
-F 0 "C28" H 8115 6796 50  0000 L CNN
+F 0 "C39" H 8115 6796 50  0000 L CNN
 F 1 "4.7uF" H 8115 6705 50  0000 L CNN
 F 2 "motor_drive_footprints:C_0603_1608Metric" H 8038 6600 50  0001 C CNN
 F 3 "~" H 8000 6750 50  0001 C CNN
@@ -106,10 +106,10 @@ GPIO_12
 Text HLabel 5750 4950 0    50   Input ~ 0
 GPIO_7
 $Comp
-L Connector_Generic:Conn_01x06 J3
+L Connector_Generic:Conn_01x06 J4
 U 1 1 5E356D9E
 P 13100 5650
-F 0 "J3" H 13180 5642 50  0000 L CNN
+F 0 "J4" H 13180 5642 50  0000 L CNN
 F 1 "Conn_01x06" H 13180 5551 50  0000 L CNN
 F 2 "motor_drive_footprints:6pos_254" H 13100 5650 50  0001 C CNN
 F 3 "~" H 13100 5650 50  0001 C CNN
@@ -127,10 +127,10 @@ JTAG_TDI
 Text Label 12450 6900 0    50   ~ 0
 JTAG_nTRST
 $Comp
-L Connector_Generic:Conn_01x06 J4
+L Connector_Generic:Conn_01x06 J5
 U 1 1 5E35A7F5
 P 13100 6700
-F 0 "J4" H 13180 6692 50  0000 L CNN
+F 0 "J5" H 13180 6692 50  0000 L CNN
 F 1 "Conn_01x06" H 13180 6601 50  0000 L CNN
 F 2 "motor_drive_footprints:6pos_254" H 13100 6700 50  0001 C CNN
 F 3 "~" H 13100 6700 50  0001 C CNN
@@ -207,10 +207,10 @@ GND
 Wire Wire Line
 	6450 8300 6450 8250
 $Comp
-L motor_drive:C C26
+L motor_drive:C C37
 U 1 1 5E3AB121
 P 6050 3000
-F 0 "C26" H 6165 3046 50  0000 L CNN
+F 0 "C37" H 6165 3046 50  0000 L CNN
 F 1 "1uF" H 6165 2955 50  0000 L CNN
 F 2 "motor_drive_footprints:C_0603_1608Metric" H 6088 2850 50  0001 C CNN
 F 3 "~" H 6050 3000 50  0001 C CNN
@@ -231,10 +231,10 @@ F 3 "~" H 5700 2750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L motor_drive:C C25
+L motor_drive:C C36
 U 1 1 5E3AB12E
 P 5350 3000
-F 0 "C25" H 5465 3046 50  0000 L CNN
+F 0 "C36" H 5465 3046 50  0000 L CNN
 F 1 "4.7uF" H 5465 2955 50  0000 L CNN
 F 2 "motor_drive_footprints:C_0603_1608Metric" H 5388 2850 50  0001 C CNN
 F 3 "~" H 5350 3000 50  0001 C CNN
@@ -482,10 +482,10 @@ GND
 Text Label 4300 4050 0    50   ~ 0
 5.0V
 $Comp
-L motor_drive:C C23
+L motor_drive:C C34
 U 1 1 5E499E4F
 P 4600 4350
-F 0 "C23" H 4715 4396 50  0000 L CNN
+F 0 "C34" H 4715 4396 50  0000 L CNN
 F 1 "0.01uF" H 4715 4305 50  0000 L CNN
 F 2 "motor_drive_footprints:C_0603_1608Metric" H 4638 4200 50  0001 C CNN
 F 3 "~" H 4600 4350 50  0001 C CNN
@@ -493,10 +493,10 @@ F 3 "~" H 4600 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L motor_drive:C C21
+L motor_drive:C C32
 U 1 1 5E499E55
 P 4050 4350
-F 0 "C21" H 4165 4396 50  0000 L CNN
+F 0 "C32" H 4165 4396 50  0000 L CNN
 F 1 "2.2uF" H 4165 4305 50  0000 L CNN
 F 2 "motor_drive_footprints:C_0603_1608Metric" H 4088 4200 50  0001 C CNN
 F 3 "~" H 4050 4350 50  0001 C CNN
@@ -524,10 +524,10 @@ GND
 Text Label 4300 5250 0    50   ~ 0
 5.0V
 $Comp
-L motor_drive:C C24
+L motor_drive:C C35
 U 1 1 5E4D3554
 P 4600 5550
-F 0 "C24" H 4715 5596 50  0000 L CNN
+F 0 "C35" H 4715 5596 50  0000 L CNN
 F 1 "0.01uF" H 4715 5505 50  0000 L CNN
 F 2 "motor_drive_footprints:C_0603_1608Metric" H 4638 5400 50  0001 C CNN
 F 3 "~" H 4600 5550 50  0001 C CNN
@@ -535,10 +535,10 @@ F 3 "~" H 4600 5550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L motor_drive:C C22
+L motor_drive:C C33
 U 1 1 5E4D355A
 P 4050 5550
-F 0 "C22" H 4165 5596 50  0000 L CNN
+F 0 "C33" H 4165 5596 50  0000 L CNN
 F 1 "2.2uF" H 4165 5505 50  0000 L CNN
 F 2 "motor_drive_footprints:C_0603_1608Metric" H 4088 5400 50  0001 C CNN
 F 3 "~" H 4050 5550 50  0001 C CNN
