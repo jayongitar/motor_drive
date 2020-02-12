@@ -138,17 +138,17 @@ F8 "B" I L 2450 1850 50
 F9 "balance" I L 2450 2000 50 
 $EndSheet
 Text Label 9400 4800 0    50   ~ 0
-I_sense_1n
+I_sense_n1
 Text Label 9400 4650 0    50   ~ 0
-I_sense_1p
+I_sense_p1
 Text Label 9400 5750 0    50   ~ 0
-I_sense_2n
+I_sense_n2
 Text Label 9400 5600 0    50   ~ 0
-I_sense_2p
+I_sense_p2
 Text Label 9400 6700 0    50   ~ 0
-I_sense_3n
+I_sense_n3
 Text Label 9400 6550 0    50   ~ 0
-I_sense_3p
+I_sense_p3
 Text Label 10600 5200 0    50   ~ 0
 5.0V
 Text Label 10600 5350 0    50   ~ 0
