@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 14 16
+Sheet 10 15
 Title ""
 Date ""
 Rev ""
@@ -16,10 +16,10 @@ $EndDescr
 Text HLabel 3400 2700 0    50   Input ~ 0
 IN+
 $Comp
-L motor_drive:AD8418ABRMZ-RL U9
+L motor_drive:AD8418ABRMZ-RL U8
 U 1 1 5E259F13
 P 4500 3500
-AR Path="/5E291A12/5E259F13" Ref="U9"  Part="1" 
+AR Path="/5E291A12/5E259F13" Ref="U8"  Part="1" 
 AR Path="/5E2938C8/5E259F13" Ref="U1"  Part="1" 
 AR Path="/5E295828/5E259F13" Ref="U2"  Part="1" 
 AR Path="/5E2E3D6E/5E259F13" Ref="U?"  Part="1" 
@@ -28,7 +28,7 @@ AR Path="/5E2E7F62/5E259F13" Ref="U?"  Part="1"
 AR Path="/5E336639/5E259F13" Ref="U3"  Part="1" 
 AR Path="/5E33A08D/5E259F13" Ref="U4"  Part="1" 
 AR Path="/5E33E36D/5E259F13" Ref="U?"  Part="1" 
-F 0 "U9" H 5500 3887 60  0000 C CNN
+F 0 "U8" H 5500 3887 60  0000 C CNN
 F 1 "AD8418ABRMZ-RL" H 5500 3781 60  0000 C CNN
 F 2 "motor_drive_footprints:AD8418ABRMZ-RL" H 5500 3740 60  0001 C CNN
 F 3 "" H 4500 3500 60  0000 C CNN
@@ -55,7 +55,7 @@ AR Path="/5E1E8A88/5E25CC80" Ref="C?"  Part="1"
 AR Path="/5E23C306/5E25CC80" Ref="C?"  Part="1" 
 AR Path="/5E285F18/5E25CC80" Ref="C?"  Part="1" 
 AR Path="/5E286BCF/5E25CC80" Ref="C?"  Part="1" 
-AR Path="/5E291A12/5E25CC80" Ref="C41"  Part="1" 
+AR Path="/5E291A12/5E25CC80" Ref="C36"  Part="1" 
 AR Path="/5E2938C8/5E25CC80" Ref="C1"  Part="1" 
 AR Path="/5E295828/5E25CC80" Ref="C3"  Part="1" 
 AR Path="/5E2E3D6E/5E25CC80" Ref="C?"  Part="1" 
@@ -64,7 +64,7 @@ AR Path="/5E2E7F62/5E25CC80" Ref="C?"  Part="1"
 AR Path="/5E336639/5E25CC80" Ref="C5"  Part="1" 
 AR Path="/5E33A08D/5E25CC80" Ref="C7"  Part="1" 
 AR Path="/5E33E36D/5E25CC80" Ref="C?"  Part="1" 
-F 0 "C41" H 5615 4496 50  0000 L CNN
+F 0 "C36" H 5615 4496 50  0000 L CNN
 F 1 "1uF" H 5615 4405 50  0000 L CNN
 F 2 "motor_drive_footprints:C_0603_1608Metric" H 5538 4300 50  0001 C CNN
 F 3 "~" H 5500 4450 50  0001 C CNN
@@ -93,7 +93,7 @@ AR Path="/5E1E8A88/5E3A2D2D" Ref="C?"  Part="1"
 AR Path="/5E23C306/5E3A2D2D" Ref="C?"  Part="1" 
 AR Path="/5E285F18/5E3A2D2D" Ref="C?"  Part="1" 
 AR Path="/5E286BCF/5E3A2D2D" Ref="C?"  Part="1" 
-AR Path="/5E291A12/5E3A2D2D" Ref="C42"  Part="1" 
+AR Path="/5E291A12/5E3A2D2D" Ref="C37"  Part="1" 
 AR Path="/5E2938C8/5E3A2D2D" Ref="C2"  Part="1" 
 AR Path="/5E295828/5E3A2D2D" Ref="C4"  Part="1" 
 AR Path="/5E2E3D6E/5E3A2D2D" Ref="C?"  Part="1" 
@@ -102,7 +102,7 @@ AR Path="/5E2E7F62/5E3A2D2D" Ref="C?"  Part="1"
 AR Path="/5E336639/5E3A2D2D" Ref="C6"  Part="1" 
 AR Path="/5E33A08D/5E3A2D2D" Ref="C8"  Part="1" 
 AR Path="/5E33E36D/5E3A2D2D" Ref="C?"  Part="1" 
-F 0 "C42" H 5615 5046 50  0000 L CNN
+F 0 "C37" H 5615 5046 50  0000 L CNN
 F 1 "0.01uF" H 5615 4955 50  0000 L CNN
 F 2 "motor_drive_footprints:C_0603_1608Metric" H 5538 4850 50  0001 C CNN
 F 3 "~" H 5500 5000 50  0001 C CNN

@@ -1,4 +1,4 @@
-16969517772243244
+16971099722631843
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -75368,6 +75368,13 @@ TMS320F28027PTT
 0
 48
 48
+motor_drive_footprints
+TPS28225DR
+
+
+0
+8
+8
 motor_drive_footprints
 WSL20101L000FEA18
 

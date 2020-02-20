@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 9 16
+Sheet 6 8
 Title ""
 Date ""
 Rev ""
@@ -19,8 +19,8 @@ U 1 1 5E3365EF
 P 4150 3000
 AR Path="/5E26944C/5E3365EF" Ref="R?"  Part="1" 
 AR Path="/5E3365EF" Ref="R?"  Part="1" 
-AR Path="/5E334D58/5E3365EF" Ref="R11"  Part="1" 
-F 0 "R11" V 3943 3000 50  0000 C CNN
+AR Path="/5E334D58/5E3365EF" Ref="R8"  Part="1" 
+F 0 "R8" V 3943 3000 50  0000 C CNN
 F 1 "R" V 4034 3000 50  0000 C CNN
 F 2 "motor_drive_footprints:C_0603_1608Metric" V 4080 3000 50  0001 C CNN
 F 3 "~" H 4150 3000 50  0001 C CNN
@@ -33,18 +33,14 @@ Text HLabel 2600 2650 0    50   Input ~ 0
 DC_pos_in
 Text HLabel 4350 3300 2    50   Input ~ 0
 VDC_sense_p
-Text HLabel 4350 3700 2    50   Input ~ 0
-VDC_sense_n
-Text HLabel 2600 3950 0    50   Input ~ 0
-DC_neg_in
 $Comp
 L motor_drive:R R?
 U 1 1 5E35CBE4
 P 4150 3500
 AR Path="/5E26944C/5E35CBE4" Ref="R?"  Part="1" 
 AR Path="/5E35CBE4" Ref="R?"  Part="1" 
-AR Path="/5E334D58/5E35CBE4" Ref="R12"  Part="1" 
-F 0 "R12" V 3943 3500 50  0000 C CNN
+AR Path="/5E334D58/5E35CBE4" Ref="R9"  Part="1" 
+F 0 "R9" V 3943 3500 50  0000 C CNN
 F 1 "R" V 4034 3500 50  0000 C CNN
 F 2 "motor_drive_footprints:C_0603_1608Metric" V 4080 3500 50  0001 C CNN
 F 3 "~" H 4150 3500 50  0001 C CNN
@@ -57,8 +53,8 @@ U 1 1 5E35DBC4
 P 3400 2650
 AR Path="/5E26944C/5E35DBC4" Ref="R?"  Part="1" 
 AR Path="/5E35DBC4" Ref="R?"  Part="1" 
-AR Path="/5E334D58/5E35DBC4" Ref="R10"  Part="1" 
-F 0 "R10" V 3193 2650 50  0000 C CNN
+AR Path="/5E334D58/5E35DBC4" Ref="R7"  Part="1" 
+F 0 "R7" V 3193 2650 50  0000 C CNN
 F 1 "R" V 3284 2650 50  0000 C CNN
 F 2 "motor_drive_footprints:C_0603_1608Metric" V 3330 2650 50  0001 C CNN
 F 3 "~" H 3400 2650 50  0001 C CNN
@@ -74,9 +70,7 @@ Text HLabel 4350 2650 2    50   Input ~ 0
 DC_pos
 Text HLabel 4350 3950 2    50   Input ~ 0
 DC_neg
-Wire Wire Line
-	4150 3650 4150 3700
-Text Label 3850 3950 0    50   ~ 0
+Text Label 4150 3950 0    50   ~ 0
 DC_neg
 Text Label 4100 2650 2    50   ~ 0
 DC_pos
@@ -94,9 +88,9 @@ F 3 "~" H 7600 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 6800 2650 0    50   ~ 0
-5.0V
+DC_pos
 Text Label 6800 2950 0    50   ~ 0
-GND
+DC_neg
 $Comp
 L motor_drive:C C?
 U 1 1 5E431D80
@@ -185,9 +179,9 @@ F 3 "~" H 7600 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 6800 3650 0    50   ~ 0
-5.0V
+DC_pos
 Text Label 6800 3950 0    50   ~ 0
-GND
+DC_neg
 $Comp
 L motor_drive:C C?
 U 1 1 5E434202
@@ -274,20 +268,12 @@ Wire Wire Line
 Wire Wire Line
 	2600 3250 3550 3250
 Wire Wire Line
-	2600 3950 4150 3950
-Wire Wire Line
 	4350 3300 4150 3300
 Connection ~ 4150 3300
 Wire Wire Line
 	4150 3300 4150 3350
 Wire Wire Line
-	4150 3700 4350 3700
-Connection ~ 4150 3700
-Wire Wire Line
-	4150 3700 4150 3950
-Wire Wire Line
 	4150 3950 4350 3950
-Connection ~ 4150 3950
 $Comp
 L motor_drive:C C?
 U 1 1 5E480CED
@@ -331,4 +317,6 @@ Wire Wire Line
 	6600 4400 6600 4500
 Wire Wire Line
 	6600 5300 6600 5400
+Wire Wire Line
+	4150 3650 4150 3950
 $EndSCHEMATC

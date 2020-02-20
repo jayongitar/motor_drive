@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 15 16
+Sheet 5 7
 Title ""
 Date ""
 Rev ""
@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L motor_drive:R R43
+L motor_drive:R R40
 U 1 1 5E41A8AA
 P 5500 4250
-F 0 "R43" H 5570 4296 50  0000 L CNN
+F 0 "R40" H 5570 4296 50  0000 L CNN
 F 1 "R" H 5570 4205 50  0000 L CNN
 F 2 "motor_drive_footprints:C_0603_1608Metric" V 5430 4250 50  0001 C CNN
 F 3 "~" H 5500 4250 50  0001 C CNN
@@ -25,10 +25,10 @@ F 3 "~" H 5500 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L motor_drive:C C43
+L motor_drive:C C38
 U 1 1 5E41AB44
 P 6000 4250
-F 0 "C43" H 6115 4296 50  0000 L CNN
+F 0 "C38" H 6115 4296 50  0000 L CNN
 F 1 "C" H 6115 4205 50  0000 L CNN
 F 2 "motor_drive_footprints:C_0603_1608Metric" H 6038 4100 50  0001 C CNN
 F 3 "~" H 6000 4250 50  0001 C CNN

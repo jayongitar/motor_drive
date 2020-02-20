@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>C:\Users\18312\Desktop\KiCad\motor_drive\motor_drive_REV_1\MAIN.sch</source>
-    <date>2/8/2020 10:47:40 PM</date>
+    <date>2/18/2020 8:56:57 PM</date>
     <tool>Eeschema (5.1.5)-3</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -17,7 +17,7 @@
         <comment number="4" value=""/>
       </title_block>
     </sheet>
-    <sheet number="2" name="/half_bridge_1/" tstamps="/5E257703/">
+    <sheet number="2" name="/half_bridge_2/" tstamps="/5E26944C/">
       <title_block>
         <title/>
         <company/>
@@ -30,7 +30,7 @@
         <comment number="4" value=""/>
       </title_block>
     </sheet>
-    <sheet number="3" name="/half_bridge_2/" tstamps="/5E26944C/">
+    <sheet number="3" name="/half_bridge_3/" tstamps="/5E26B60E/">
       <title_block>
         <title/>
         <company/>
@@ -43,20 +43,7 @@
         <comment number="4" value=""/>
       </title_block>
     </sheet>
-    <sheet number="4" name="/half_bridge_3/" tstamps="/5E26B60E/">
-      <title_block>
-        <title/>
-        <company/>
-        <rev/>
-        <date/>
-        <source>half_bridge.sch</source>
-        <comment number="1" value=""/>
-        <comment number="2" value=""/>
-        <comment number="3" value=""/>
-        <comment number="4" value=""/>
-      </title_block>
-    </sheet>
-    <sheet number="5" name="/I_sense_2/" tstamps="/5E2938C8/">
+    <sheet number="4" name="/I_sense_2/" tstamps="/5E2938C8/">
       <title_block>
         <title/>
         <company/>
@@ -69,7 +56,7 @@
         <comment number="4" value=""/>
       </title_block>
     </sheet>
-    <sheet number="6" name="/I_sense_3/" tstamps="/5E295828/">
+    <sheet number="5" name="/I_sense_3/" tstamps="/5E295828/">
       <title_block>
         <title/>
         <company/>
@@ -82,7 +69,7 @@
         <comment number="4" value=""/>
       </title_block>
     </sheet>
-    <sheet number="7" name="/IDC_sense/" tstamps="/5E336639/">
+    <sheet number="6" name="/IDC_sense/" tstamps="/5E336639/">
       <title_block>
         <title/>
         <company/>
@@ -95,7 +82,7 @@
         <comment number="4" value=""/>
       </title_block>
     </sheet>
-    <sheet number="8" name="/VDC_sense/" tstamps="/5E33A08D/">
+    <sheet number="7" name="/VDC_sense/" tstamps="/5E33A08D/">
       <title_block>
         <title/>
         <company/>
@@ -108,7 +95,7 @@
         <comment number="4" value=""/>
       </title_block>
     </sheet>
-    <sheet number="9" name="/DC_Link_Input/" tstamps="/5E334D58/">
+    <sheet number="8" name="/DC_Link_Input/" tstamps="/5E334D58/">
       <title_block>
         <title/>
         <company/>
@@ -121,7 +108,7 @@
         <comment number="4" value=""/>
       </title_block>
     </sheet>
-    <sheet number="10" name="/Position sensor/" tstamps="/5E373134/">
+    <sheet number="9" name="/Position sensor/" tstamps="/5E373134/">
       <title_block>
         <title/>
         <company/>
@@ -134,7 +121,7 @@
         <comment number="4" value=""/>
       </title_block>
     </sheet>
-    <sheet number="11" name="/RS422/" tstamps="/5E38D632/">
+    <sheet number="10" name="/RS422/" tstamps="/5E38D632/">
       <title_block>
         <title/>
         <company/>
@@ -147,20 +134,7 @@
         <comment number="4" value=""/>
       </title_block>
     </sheet>
-    <sheet number="12" name="/FAN7888/" tstamps="/5E28CA2E/">
-      <title_block>
-        <title/>
-        <company/>
-        <rev/>
-        <date/>
-        <source>FAN7888.sch</source>
-        <comment number="1" value=""/>
-        <comment number="2" value=""/>
-        <comment number="3" value=""/>
-        <comment number="4" value=""/>
-      </title_block>
-    </sheet>
-    <sheet number="13" name="/F28027/" tstamps="/5E2C4A87/">
+    <sheet number="11" name="/F28027/" tstamps="/5E2C4A87/">
       <title_block>
         <title/>
         <company/>
@@ -173,7 +147,7 @@
         <comment number="4" value=""/>
       </title_block>
     </sheet>
-    <sheet number="14" name="/I_sense_1/" tstamps="/5E291A12/">
+    <sheet number="12" name="/I_sense_1/" tstamps="/5E291A12/">
       <title_block>
         <title/>
         <company/>
@@ -186,7 +160,20 @@
         <comment number="4" value=""/>
       </title_block>
     </sheet>
-    <sheet number="15" name="/therm_2/" tstamps="/5E5F577B/">
+    <sheet number="13" name="/therm_1/" tstamps="/5E41A78C/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>thermistor.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="14" name="/thermistor_2/" tstamps="/5E41D6EC/">
       <title_block>
         <title/>
         <company/>
@@ -199,13 +186,26 @@
         <comment number="4" value=""/>
       </title_block>
     </sheet>
-    <sheet number="16" name="/therm_1/" tstamps="/5E5ED069/">
+    <sheet number="15" name="/half_bridge_1/" tstamps="/5E257703/">
       <title_block>
         <title/>
         <company/>
         <rev/>
         <date/>
-        <source>therm_1.sch</source>
+        <source>half_bridge.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="16" name="/gate_drive/" tstamps="/5E4E6DB9/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>gate_drive.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
@@ -215,14 +215,6 @@
   </design>
   <components>
     <comp ref="J2">
-      <value>Conn_01x03</value>
-      <footprint>motor_drive_footprints:3pos_254</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E32DF06</tstamp>
-    </comp>
-    <comp ref="J1">
       <value>Conn_01x02</value>
       <footprint>motor_drive_footprints:2pos_254</footprint>
       <datasheet>~</datasheet>
@@ -230,12 +222,28 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5E32F096</tstamp>
     </comp>
+    <comp ref="J3">
+      <value>Conn_01x04</value>
+      <footprint>motor_drive_footprints:4pos_338</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E4855FB</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x04</value>
+      <footprint>motor_drive_footprints:4pos_254</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E4D4EA3</tstamp>
+    </comp>
     <comp ref="Q1">
       <value>nmos</value>
       <footprint>motor_drive_footprints:NTTGS5820NL-D</footprint>
       <datasheet>~</datasheet>
       <libsource lib="motor_drive" part="nmos" description="N-MOSFET transistor, drain/gate/source"/>
-      <sheetpath names="/half_bridge_1/" tstamps="/5E257703/"/>
+      <sheetpath names="/half_bridge_2/" tstamps="/5E26944C/"/>
       <tstamp>5E277B3C</tstamp>
     </comp>
     <comp ref="Q2">
@@ -243,7 +251,7 @@
       <footprint>motor_drive_footprints:NTTGS5820NL-D</footprint>
       <datasheet>~</datasheet>
       <libsource lib="motor_drive" part="nmos" description="N-MOSFET transistor, drain/gate/source"/>
-      <sheetpath names="/half_bridge_1/" tstamps="/5E257703/"/>
+      <sheetpath names="/half_bridge_2/" tstamps="/5E26944C/"/>
       <tstamp>5E279347</tstamp>
     </comp>
     <comp ref="R2">
@@ -251,7 +259,7 @@
       <footprint>motor_drive_footprints:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <libsource lib="motor_drive" part="R" description="Resistor"/>
-      <sheetpath names="/half_bridge_1/" tstamps="/5E257703/"/>
+      <sheetpath names="/half_bridge_2/" tstamps="/5E26944C/"/>
       <tstamp>5E27A2EF</tstamp>
     </comp>
     <comp ref="R1">
@@ -259,23 +267,22 @@
       <footprint>motor_drive_footprints:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <libsource lib="motor_drive" part="R" description="Resistor"/>
-      <sheetpath names="/half_bridge_1/" tstamps="/5E257703/"/>
+      <sheetpath names="/half_bridge_2/" tstamps="/5E26944C/"/>
       <tstamp>5E27D5F7</tstamp>
     </comp>
     <comp ref="R3">
-      <value>0.005</value>
-      <footprint>motor_drive_footprints:C_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="motor_drive" part="R" description="Resistor"/>
-      <sheetpath names="/half_bridge_1/" tstamps="/5E257703/"/>
-      <tstamp>5E35BEDA</tstamp>
+      <value>WSL20101L000FEA18</value>
+      <footprint>motor_drive_footprints:WSL20101L000FEA18</footprint>
+      <libsource lib="motor_drive" part="WSL20101L000FEA18" description=""/>
+      <sheetpath names="/half_bridge_2/" tstamps="/5E26944C/"/>
+      <tstamp>5E424CCF</tstamp>
     </comp>
     <comp ref="Q3">
       <value>nmos</value>
       <footprint>motor_drive_footprints:NTTGS5820NL-D</footprint>
       <datasheet>~</datasheet>
       <libsource lib="motor_drive" part="nmos" description="N-MOSFET transistor, drain/gate/source"/>
-      <sheetpath names="/half_bridge_2/" tstamps="/5E26944C/"/>
+      <sheetpath names="/half_bridge_3/" tstamps="/5E26B60E/"/>
       <tstamp>5E277B3C</tstamp>
     </comp>
     <comp ref="Q4">
@@ -283,7 +290,7 @@
       <footprint>motor_drive_footprints:NTTGS5820NL-D</footprint>
       <datasheet>~</datasheet>
       <libsource lib="motor_drive" part="nmos" description="N-MOSFET transistor, drain/gate/source"/>
-      <sheetpath names="/half_bridge_2/" tstamps="/5E26944C/"/>
+      <sheetpath names="/half_bridge_3/" tstamps="/5E26B60E/"/>
       <tstamp>5E279347</tstamp>
     </comp>
     <comp ref="R5">
@@ -291,7 +298,7 @@
       <footprint>motor_drive_footprints:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <libsource lib="motor_drive" part="R" description="Resistor"/>
-      <sheetpath names="/half_bridge_2/" tstamps="/5E26944C/"/>
+      <sheetpath names="/half_bridge_3/" tstamps="/5E26B60E/"/>
       <tstamp>5E27A2EF</tstamp>
     </comp>
     <comp ref="R4">
@@ -299,56 +306,15 @@
       <footprint>motor_drive_footprints:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <libsource lib="motor_drive" part="R" description="Resistor"/>
-      <sheetpath names="/half_bridge_2/" tstamps="/5E26944C/"/>
+      <sheetpath names="/half_bridge_3/" tstamps="/5E26B60E/"/>
       <tstamp>5E27D5F7</tstamp>
     </comp>
     <comp ref="R6">
-      <value>0.005</value>
-      <footprint>motor_drive_footprints:C_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="motor_drive" part="R" description="Resistor"/>
-      <sheetpath names="/half_bridge_2/" tstamps="/5E26944C/"/>
-      <tstamp>5E35BEDA</tstamp>
-    </comp>
-    <comp ref="Q5">
-      <value>nmos</value>
-      <footprint>motor_drive_footprints:NTTGS5820NL-D</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="motor_drive" part="nmos" description="N-MOSFET transistor, drain/gate/source"/>
+      <value>WSL20101L000FEA18</value>
+      <footprint>motor_drive_footprints:WSL20101L000FEA18</footprint>
+      <libsource lib="motor_drive" part="WSL20101L000FEA18" description=""/>
       <sheetpath names="/half_bridge_3/" tstamps="/5E26B60E/"/>
-      <tstamp>5E277B3C</tstamp>
-    </comp>
-    <comp ref="Q6">
-      <value>nmos</value>
-      <footprint>motor_drive_footprints:NTTGS5820NL-D</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="motor_drive" part="nmos" description="N-MOSFET transistor, drain/gate/source"/>
-      <sheetpath names="/half_bridge_3/" tstamps="/5E26B60E/"/>
-      <tstamp>5E279347</tstamp>
-    </comp>
-    <comp ref="R8">
-      <value>10</value>
-      <footprint>motor_drive_footprints:C_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="motor_drive" part="R" description="Resistor"/>
-      <sheetpath names="/half_bridge_3/" tstamps="/5E26B60E/"/>
-      <tstamp>5E27A2EF</tstamp>
-    </comp>
-    <comp ref="R7">
-      <value>10</value>
-      <footprint>motor_drive_footprints:C_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="motor_drive" part="R" description="Resistor"/>
-      <sheetpath names="/half_bridge_3/" tstamps="/5E26B60E/"/>
-      <tstamp>5E27D5F7</tstamp>
-    </comp>
-    <comp ref="R9">
-      <value>0.005</value>
-      <footprint>motor_drive_footprints:C_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="motor_drive" part="R" description="Resistor"/>
-      <sheetpath names="/half_bridge_3/" tstamps="/5E26B60E/"/>
-      <tstamp>5E35BEDA</tstamp>
+      <tstamp>5E424CCF</tstamp>
     </comp>
     <comp ref="U1">
       <value>AD8418ABRMZ-RL</value>
@@ -442,7 +408,7 @@
       <sheetpath names="/VDC_sense/" tstamps="/5E33A08D/"/>
       <tstamp>5E3A2D2D</tstamp>
     </comp>
-    <comp ref="R10">
+    <comp ref="R8">
       <value>R</value>
       <footprint>motor_drive_footprints:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
@@ -450,7 +416,7 @@
       <sheetpath names="/DC_Link_Input/" tstamps="/5E334D58/"/>
       <tstamp>5E3365EF</tstamp>
     </comp>
-    <comp ref="R11">
+    <comp ref="R9">
       <value>R</value>
       <footprint>motor_drive_footprints:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
@@ -458,7 +424,7 @@
       <sheetpath names="/DC_Link_Input/" tstamps="/5E334D58/"/>
       <tstamp>5E35CBE4</tstamp>
     </comp>
-    <comp ref="R12">
+    <comp ref="R7">
       <value>R</value>
       <footprint>motor_drive_footprints:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
@@ -466,13 +432,101 @@
       <sheetpath names="/DC_Link_Input/" tstamps="/5E334D58/"/>
       <tstamp>5E35DBC4</tstamp>
     </comp>
-    <comp ref="C9">
-      <value>0.01uF</value>
-      <footprint>motor_drive_footprints:C_0603_1608Metric</footprint>
+    <comp ref="C15">
+      <value>1uF</value>
+      <footprint>motor_drive_footprints:gen_0805</footprint>
       <datasheet>~</datasheet>
       <libsource lib="motor_drive" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/DC_Link_Input/" tstamps="/5E334D58/"/>
-      <tstamp>5E3AE82D</tstamp>
+      <tstamp>5E431D78</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>1uF</value>
+      <footprint>motor_drive_footprints:gen_0805</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="motor_drive" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/DC_Link_Input/" tstamps="/5E334D58/"/>
+      <tstamp>5E431D80</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>1uF</value>
+      <footprint>motor_drive_footprints:gen_0805</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="motor_drive" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/DC_Link_Input/" tstamps="/5E334D58/"/>
+      <tstamp>5E431D86</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>1uF</value>
+      <footprint>motor_drive_footprints:gen_0805</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="motor_drive" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/DC_Link_Input/" tstamps="/5E334D58/"/>
+      <tstamp>5E431D8C</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>1uF</value>
+      <footprint>motor_drive_footprints:gen_0805</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="motor_drive" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/DC_Link_Input/" tstamps="/5E334D58/"/>
+      <tstamp>5E431D92</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>1uF</value>
+      <footprint>motor_drive_footprints:gen_0805</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="motor_drive" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/DC_Link_Input/" tstamps="/5E334D58/"/>
+      <tstamp>5E4341FA</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>1uF</value>
+      <footprint>motor_drive_footprints:gen_0805</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="motor_drive" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/DC_Link_Input/" tstamps="/5E334D58/"/>
+      <tstamp>5E434202</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>1uF</value>
+      <footprint>motor_drive_footprints:gen_0805</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="motor_drive" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/DC_Link_Input/" tstamps="/5E334D58/"/>
+      <tstamp>5E434208</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>1uF</value>
+      <footprint>motor_drive_footprints:gen_0805</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="motor_drive" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/DC_Link_Input/" tstamps="/5E334D58/"/>
+      <tstamp>5E43420E</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>1uF</value>
+      <footprint>motor_drive_footprints:gen_0805</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="motor_drive" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/DC_Link_Input/" tstamps="/5E334D58/"/>
+      <tstamp>5E434214</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>1uF</value>
+      <footprint>motor_drive_footprints:gen_0805</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="motor_drive" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/DC_Link_Input/" tstamps="/5E334D58/"/>
+      <tstamp>5E480CED</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>1uF</value>
+      <footprint>motor_drive_footprints:gen_0805</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="motor_drive" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/DC_Link_Input/" tstamps="/5E334D58/"/>
+      <tstamp>5E480CF3</tstamp>
     </comp>
     <comp ref="U5">
       <value>ADA4571WHRZ-R7</value>
@@ -481,7 +535,7 @@
       <sheetpath names="/Position sensor/" tstamps="/5E373134/"/>
       <tstamp>5E373274</tstamp>
     </comp>
-    <comp ref="C10">
+    <comp ref="C21">
       <value>2.2uF</value>
       <footprint>motor_drive_footprints:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
@@ -489,7 +543,7 @@
       <sheetpath names="/Position sensor/" tstamps="/5E373134/"/>
       <tstamp>5E374B8C</tstamp>
     </comp>
-    <comp ref="C11">
+    <comp ref="C22">
       <value>0.01uF</value>
       <footprint>motor_drive_footprints:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
@@ -497,7 +551,7 @@
       <sheetpath names="/Position sensor/" tstamps="/5E373134/"/>
       <tstamp>5E5D273D</tstamp>
     </comp>
-    <comp ref="R13">
+    <comp ref="R10">
       <value>NP</value>
       <footprint>motor_drive_footprints:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
@@ -505,7 +559,7 @@
       <sheetpath names="/RS422/" tstamps="/5E38D632/"/>
       <tstamp>5E39658B</tstamp>
     </comp>
-    <comp ref="C12">
+    <comp ref="C23">
       <value>2.2uF</value>
       <footprint>motor_drive_footprints:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
@@ -520,7 +574,7 @@
       <sheetpath names="/RS422/" tstamps="/5E38D632/"/>
       <tstamp>5E3956B5</tstamp>
     </comp>
-    <comp ref="R14">
+    <comp ref="R11">
       <value>4.7k</value>
       <footprint>motor_drive_footprints:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
@@ -528,7 +582,7 @@
       <sheetpath names="/RS422/" tstamps="/5E38D632/"/>
       <tstamp>5E39AB4E</tstamp>
     </comp>
-    <comp ref="R15">
+    <comp ref="R12">
       <value>375</value>
       <footprint>motor_drive_footprints:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
@@ -536,7 +590,7 @@
       <sheetpath names="/RS422/" tstamps="/5E38D632/"/>
       <tstamp>5E3A24BE</tstamp>
     </comp>
-    <comp ref="R16">
+    <comp ref="R13">
       <value>375</value>
       <footprint>motor_drive_footprints:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
@@ -544,7 +598,7 @@
       <sheetpath names="/RS422/" tstamps="/5E38D632/"/>
       <tstamp>5E3A2A5B</tstamp>
     </comp>
-    <comp ref="R17">
+    <comp ref="R14">
       <value>375</value>
       <footprint>motor_drive_footprints:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
@@ -552,7 +606,7 @@
       <sheetpath names="/RS422/" tstamps="/5E38D632/"/>
       <tstamp>5E33ED83</tstamp>
     </comp>
-    <comp ref="R19">
+    <comp ref="R16">
       <value>120</value>
       <footprint>motor_drive_footprints:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
@@ -560,7 +614,7 @@
       <sheetpath names="/RS422/" tstamps="/5E38D632/"/>
       <tstamp>5E390D6F</tstamp>
     </comp>
-    <comp ref="R20">
+    <comp ref="R17">
       <value>680</value>
       <footprint>motor_drive_footprints:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
@@ -568,7 +622,7 @@
       <sheetpath names="/RS422/" tstamps="/5E38D632/"/>
       <tstamp>5E37C57B</tstamp>
     </comp>
-    <comp ref="R21">
+    <comp ref="R18">
       <value>375</value>
       <footprint>motor_drive_footprints:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
@@ -576,7 +630,7 @@
       <sheetpath names="/RS422/" tstamps="/5E38D632/"/>
       <tstamp>5E37EDA8</tstamp>
     </comp>
-    <comp ref="R22">
+    <comp ref="R19">
       <value>375</value>
       <footprint>motor_drive_footprints:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
@@ -584,7 +638,7 @@
       <sheetpath names="/RS422/" tstamps="/5E38D632/"/>
       <tstamp>5E37F275</tstamp>
     </comp>
-    <comp ref="C15">
+    <comp ref="C26">
       <value>680pF</value>
       <footprint>motor_drive_footprints:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
@@ -592,7 +646,7 @@
       <sheetpath names="/RS422/" tstamps="/5E38D632/"/>
       <tstamp>5E386871</tstamp>
     </comp>
-    <comp ref="C13">
+    <comp ref="C24">
       <value>0.01uF</value>
       <footprint>motor_drive_footprints:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
@@ -600,7 +654,7 @@
       <sheetpath names="/RS422/" tstamps="/5E38D632/"/>
       <tstamp>5E3AD083</tstamp>
     </comp>
-    <comp ref="R18">
+    <comp ref="R15">
       <value>680</value>
       <footprint>motor_drive_footprints:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
@@ -608,7 +662,7 @@
       <sheetpath names="/RS422/" tstamps="/5E38D632/"/>
       <tstamp>5E5DB1A4</tstamp>
     </comp>
-    <comp ref="C14">
+    <comp ref="C25">
       <value>680pF</value>
       <footprint>motor_drive_footprints:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
@@ -616,79 +670,7 @@
       <sheetpath names="/RS422/" tstamps="/5E38D632/"/>
       <tstamp>5E5DB1AA</tstamp>
     </comp>
-    <comp ref="U7">
-      <value>FAN7888_gen</value>
-      <footprint>motor_drive_footprints:FAN7888</footprint>
-      <datasheet>http://www.onsemi.com/pub/Collateral/FAN7888-D.pdf</datasheet>
-      <libsource lib="motor_drive" part="FAN7888_gen" description="3 Half-Bridge Gate-Drive IC, 200V operation, Output Current 350/650mA, SOIC-20"/>
-      <sheetpath names="/FAN7888/" tstamps="/5E28CA2E/"/>
-      <tstamp>5E28F58F</tstamp>
-    </comp>
-    <comp ref="C18">
-      <value>0.22uF</value>
-      <footprint>motor_drive_footprints:C_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="motor_drive" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/FAN7888/" tstamps="/5E28CA2E/"/>
-      <tstamp>5E290119</tstamp>
-    </comp>
-    <comp ref="C19">
-      <value>0.22uF</value>
-      <footprint>motor_drive_footprints:C_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="motor_drive" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/FAN7888/" tstamps="/5E28CA2E/"/>
-      <tstamp>5E291813</tstamp>
-    </comp>
-    <comp ref="C20">
-      <value>0.22uF</value>
-      <footprint>motor_drive_footprints:C_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="motor_drive" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/FAN7888/" tstamps="/5E28CA2E/"/>
-      <tstamp>5E291C33</tstamp>
-    </comp>
-    <comp ref="D1">
-      <value>D</value>
-      <footprint>motor_drive_footprints:SOD123</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="motor_drive" part="D" description="Diode"/>
-      <sheetpath names="/FAN7888/" tstamps="/5E28CA2E/"/>
-      <tstamp>5E2967E8</tstamp>
-    </comp>
-    <comp ref="D2">
-      <value>D</value>
-      <footprint>motor_drive_footprints:SOD123</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="motor_drive" part="D" description="Diode"/>
-      <sheetpath names="/FAN7888/" tstamps="/5E28CA2E/"/>
-      <tstamp>5E296FA9</tstamp>
-    </comp>
-    <comp ref="D3">
-      <value>D</value>
-      <footprint>motor_drive_footprints:SOD123</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="motor_drive" part="D" description="Diode"/>
-      <sheetpath names="/FAN7888/" tstamps="/5E28CA2E/"/>
-      <tstamp>5E2971E1</tstamp>
-    </comp>
-    <comp ref="C16">
-      <value>2.2uF</value>
-      <footprint>motor_drive_footprints:C_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="motor_drive" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/FAN7888/" tstamps="/5E28CA2E/"/>
-      <tstamp>5E3AA0F7</tstamp>
-    </comp>
-    <comp ref="C17">
-      <value>0.01uF</value>
-      <footprint>motor_drive_footprints:C_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="motor_drive" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/FAN7888/" tstamps="/5E28CA2E/"/>
-      <tstamp>5E3A6EC9</tstamp>
-    </comp>
-    <comp ref="R26">
+    <comp ref="R23">
       <value>2.2k</value>
       <footprint>motor_drive_footprints:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
@@ -696,7 +678,7 @@
       <sheetpath names="/F28027/" tstamps="/5E2C4A87/"/>
       <tstamp>5E2CBC65</tstamp>
     </comp>
-    <comp ref="C29">
+    <comp ref="C35">
       <value>1uF</value>
       <footprint>motor_drive_footprints:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
@@ -704,7 +686,7 @@
       <sheetpath names="/F28027/" tstamps="/5E2C4A87/"/>
       <tstamp>5E2D37BE</tstamp>
     </comp>
-    <comp ref="C27">
+    <comp ref="C33">
       <value>100pF</value>
       <footprint>motor_drive_footprints:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
@@ -720,7 +702,7 @@
       <sheetpath names="/F28027/" tstamps="/5E2C4A87/"/>
       <tstamp>5E3109CF</tstamp>
     </comp>
-    <comp ref="C28">
+    <comp ref="C34">
       <value>4.7uF</value>
       <footprint>motor_drive_footprints:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
@@ -728,7 +710,7 @@
       <sheetpath names="/F28027/" tstamps="/5E2C4A87/"/>
       <tstamp>5E311B08</tstamp>
     </comp>
-    <comp ref="R24">
+    <comp ref="R21">
       <value>4.7k</value>
       <footprint>motor_drive_footprints:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
@@ -736,7 +718,7 @@
       <sheetpath names="/F28027/" tstamps="/5E2C4A87/"/>
       <tstamp>5E3169E2</tstamp>
     </comp>
-    <comp ref="J3">
+    <comp ref="J4">
       <value>Conn_01x06</value>
       <footprint>motor_drive_footprints:6pos_254</footprint>
       <datasheet>~</datasheet>
@@ -744,7 +726,7 @@
       <sheetpath names="/F28027/" tstamps="/5E2C4A87/"/>
       <tstamp>5E356D9E</tstamp>
     </comp>
-    <comp ref="J4">
+    <comp ref="J5">
       <value>Conn_01x06</value>
       <footprint>motor_drive_footprints:6pos_254</footprint>
       <datasheet>~</datasheet>
@@ -752,7 +734,7 @@
       <sheetpath names="/F28027/" tstamps="/5E2C4A87/"/>
       <tstamp>5E35A7F5</tstamp>
     </comp>
-    <comp ref="R23">
+    <comp ref="R20">
       <value>R</value>
       <footprint>motor_drive_footprints:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
@@ -760,7 +742,7 @@
       <sheetpath names="/F28027/" tstamps="/5E2C4A87/"/>
       <tstamp>5E401F5C</tstamp>
     </comp>
-    <comp ref="C26">
+    <comp ref="C32">
       <value>1uF</value>
       <footprint>motor_drive_footprints:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
@@ -776,7 +758,7 @@
       <sheetpath names="/F28027/" tstamps="/5E2C4A87/"/>
       <tstamp>5E3AB128</tstamp>
     </comp>
-    <comp ref="C25">
+    <comp ref="C31">
       <value>4.7uF</value>
       <footprint>motor_drive_footprints:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
@@ -784,7 +766,7 @@
       <sheetpath names="/F28027/" tstamps="/5E2C4A87/"/>
       <tstamp>5E3AB12E</tstamp>
     </comp>
-    <comp ref="R39">
+    <comp ref="R36">
       <value>375</value>
       <footprint>motor_drive_footprints:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
@@ -792,7 +774,7 @@
       <sheetpath names="/F28027/" tstamps="/5E2C4A87/"/>
       <tstamp>5E40175C</tstamp>
     </comp>
-    <comp ref="R35">
+    <comp ref="R32">
       <value>375</value>
       <footprint>motor_drive_footprints:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
@@ -800,7 +782,7 @@
       <sheetpath names="/F28027/" tstamps="/5E2C4A87/"/>
       <tstamp>5E401762</tstamp>
     </comp>
-    <comp ref="R37">
+    <comp ref="R34">
       <value>375</value>
       <footprint>motor_drive_footprints:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
@@ -808,7 +790,7 @@
       <sheetpath names="/F28027/" tstamps="/5E2C4A87/"/>
       <tstamp>5E401768</tstamp>
     </comp>
-    <comp ref="R41">
+    <comp ref="R38">
       <value>375</value>
       <footprint>motor_drive_footprints:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
@@ -816,7 +798,7 @@
       <sheetpath names="/F28027/" tstamps="/5E2C4A87/"/>
       <tstamp>5E40176E</tstamp>
     </comp>
-    <comp ref="R36">
+    <comp ref="R33">
       <value>375</value>
       <footprint>motor_drive_footprints:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
@@ -824,7 +806,7 @@
       <sheetpath names="/F28027/" tstamps="/5E2C4A87/"/>
       <tstamp>5E4298D2</tstamp>
     </comp>
-    <comp ref="R38">
+    <comp ref="R35">
       <value>375</value>
       <footprint>motor_drive_footprints:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
@@ -832,7 +814,7 @@
       <sheetpath names="/F28027/" tstamps="/5E2C4A87/"/>
       <tstamp>5E4298D8</tstamp>
     </comp>
-    <comp ref="R40">
+    <comp ref="R37">
       <value>375</value>
       <footprint>motor_drive_footprints:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
@@ -840,7 +822,7 @@
       <sheetpath names="/F28027/" tstamps="/5E2C4A87/"/>
       <tstamp>5E4298DE</tstamp>
     </comp>
-    <comp ref="R42">
+    <comp ref="R39">
       <value>375</value>
       <footprint>motor_drive_footprints:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
@@ -848,14 +830,14 @@
       <sheetpath names="/F28027/" tstamps="/5E2C4A87/"/>
       <tstamp>5E4298E4</tstamp>
     </comp>
-    <comp ref="U8">
+    <comp ref="U7">
       <value>TMS20F28027PTT-custom</value>
       <footprint>motor_drive_footprints:TMS320F28027PTT</footprint>
       <libsource lib="motor_drive" part="TMS20F28027PTT-custom" description=""/>
       <sheetpath names="/F28027/" tstamps="/5E2C4A87/"/>
       <tstamp>5E3F5BBD</tstamp>
     </comp>
-    <comp ref="R25">
+    <comp ref="R22">
       <value>375</value>
       <footprint>motor_drive_footprints:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
@@ -863,7 +845,7 @@
       <sheetpath names="/F28027/" tstamps="/5E2C4A87/"/>
       <tstamp>5E4297B3</tstamp>
     </comp>
-    <comp ref="C23">
+    <comp ref="C29">
       <value>0.01uF</value>
       <footprint>motor_drive_footprints:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
@@ -871,7 +853,7 @@
       <sheetpath names="/F28027/" tstamps="/5E2C4A87/"/>
       <tstamp>5E499E4F</tstamp>
     </comp>
-    <comp ref="C21">
+    <comp ref="C27">
       <value>2.2uF</value>
       <footprint>motor_drive_footprints:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
@@ -879,7 +861,7 @@
       <sheetpath names="/F28027/" tstamps="/5E2C4A87/"/>
       <tstamp>5E499E55</tstamp>
     </comp>
-    <comp ref="C24">
+    <comp ref="C30">
       <value>0.01uF</value>
       <footprint>motor_drive_footprints:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
@@ -887,7 +869,7 @@
       <sheetpath names="/F28027/" tstamps="/5E2C4A87/"/>
       <tstamp>5E4D3554</tstamp>
     </comp>
-    <comp ref="C22">
+    <comp ref="C28">
       <value>2.2uF</value>
       <footprint>motor_drive_footprints:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
@@ -895,7 +877,7 @@
       <sheetpath names="/F28027/" tstamps="/5E2C4A87/"/>
       <tstamp>5E4D355A</tstamp>
     </comp>
-    <comp ref="R28">
+    <comp ref="R25">
       <value>10k</value>
       <footprint>motor_drive_footprints:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
@@ -903,7 +885,7 @@
       <sheetpath names="/F28027/" tstamps="/5E2C4A87/"/>
       <tstamp>5E511168</tstamp>
     </comp>
-    <comp ref="R30">
+    <comp ref="R27">
       <value>10k</value>
       <footprint>motor_drive_footprints:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
@@ -911,7 +893,7 @@
       <sheetpath names="/F28027/" tstamps="/5E2C4A87/"/>
       <tstamp>5E53E15B</tstamp>
     </comp>
-    <comp ref="R32">
+    <comp ref="R29">
       <value>10k</value>
       <footprint>motor_drive_footprints:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
@@ -919,7 +901,7 @@
       <sheetpath names="/F28027/" tstamps="/5E2C4A87/"/>
       <tstamp>5E54172F</tstamp>
     </comp>
-    <comp ref="R34">
+    <comp ref="R31">
       <value>10k</value>
       <footprint>motor_drive_footprints:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
@@ -927,7 +909,7 @@
       <sheetpath names="/F28027/" tstamps="/5E2C4A87/"/>
       <tstamp>5E544D62</tstamp>
     </comp>
-    <comp ref="R27">
+    <comp ref="R24">
       <value>10k</value>
       <footprint>motor_drive_footprints:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
@@ -935,7 +917,7 @@
       <sheetpath names="/F28027/" tstamps="/5E2C4A87/"/>
       <tstamp>5E549B17</tstamp>
     </comp>
-    <comp ref="R29">
+    <comp ref="R26">
       <value>10k</value>
       <footprint>motor_drive_footprints:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
@@ -943,7 +925,7 @@
       <sheetpath names="/F28027/" tstamps="/5E2C4A87/"/>
       <tstamp>5E549B1D</tstamp>
     </comp>
-    <comp ref="R31">
+    <comp ref="R28">
       <value>10k</value>
       <footprint>motor_drive_footprints:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
@@ -951,7 +933,7 @@
       <sheetpath names="/F28027/" tstamps="/5E2C4A87/"/>
       <tstamp>5E549B23</tstamp>
     </comp>
-    <comp ref="R33">
+    <comp ref="R30">
       <value>10k</value>
       <footprint>motor_drive_footprints:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
@@ -959,14 +941,14 @@
       <sheetpath names="/F28027/" tstamps="/5E2C4A87/"/>
       <tstamp>5E549B29</tstamp>
     </comp>
-    <comp ref="U9">
+    <comp ref="U8">
       <value>AD8418ABRMZ-RL</value>
       <footprint>motor_drive_footprints:AD8418ABRMZ-RL</footprint>
       <libsource lib="motor_drive" part="AD8418ABRMZ-RL" description="IC CURR SENSE 1 CIRCUIT 8MSOP"/>
       <sheetpath names="/I_sense_1/" tstamps="/5E291A12/"/>
       <tstamp>5E259F13</tstamp>
     </comp>
-    <comp ref="C30">
+    <comp ref="C36">
       <value>1uF</value>
       <footprint>motor_drive_footprints:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
@@ -974,7 +956,7 @@
       <sheetpath names="/I_sense_1/" tstamps="/5E291A12/"/>
       <tstamp>5E25CC80</tstamp>
     </comp>
-    <comp ref="C31">
+    <comp ref="C37">
       <value>0.01uF</value>
       <footprint>motor_drive_footprints:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
@@ -982,131 +964,232 @@
       <sheetpath names="/I_sense_1/" tstamps="/5E291A12/"/>
       <tstamp>5E3A2D2D</tstamp>
     </comp>
-    <comp ref="C33">
-      <value>2.2uF</value>
-      <datasheet>~</datasheet>
-      <libsource lib="motor_drive" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/therm_2/" tstamps="/5E5F577B/"/>
-      <tstamp>5E5F82A3</tstamp>
-    </comp>
-    <comp ref="R43">
-      <value>3k</value>
+    <comp ref="R40">
+      <value>R</value>
+      <footprint>motor_drive_footprints:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <libsource lib="motor_drive" part="R" description="Resistor"/>
-      <sheetpath names="/therm_2/" tstamps="/5E5F577B/"/>
-      <tstamp>5E5F82A5</tstamp>
+      <sheetpath names="/therm_1/" tstamps="/5E41A78C/"/>
+      <tstamp>5E41A8AA</tstamp>
+    </comp>
+    <comp ref="C38">
+      <value>C</value>
+      <footprint>motor_drive_footprints:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="motor_drive" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/therm_1/" tstamps="/5E41A78C/"/>
+      <tstamp>5E41AB44</tstamp>
     </comp>
     <comp ref="J6">
       <value>Conn_01x02</value>
+      <footprint>motor_drive_footprints:2pos_254</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <sheetpath names="/therm_2/" tstamps="/5E5F577B/"/>
-      <tstamp>5E5FCAD3</tstamp>
+      <sheetpath names="/therm_1/" tstamps="/5E41A78C/"/>
+      <tstamp>5E41B07F</tstamp>
     </comp>
-    <comp ref="C34">
-      <value>2.2uF</value>
-      <datasheet>~</datasheet>
-      <libsource lib="motor_drive" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/therm_2/" tstamps="/5E5F577B/"/>
-      <tstamp>5E5FCAD0</tstamp>
-    </comp>
-    <comp ref="R45">
-      <value>3k</value>
+    <comp ref="R41">
+      <value>R</value>
+      <footprint>motor_drive_footprints:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <libsource lib="motor_drive" part="R" description="Resistor"/>
-      <sheetpath names="/therm_2/" tstamps="/5E5F577B/"/>
-      <tstamp>5E5FCAD2</tstamp>
+      <sheetpath names="/thermistor_2/" tstamps="/5E41D6EC/"/>
+      <tstamp>5E41E7F8</tstamp>
+    </comp>
+    <comp ref="C39">
+      <value>C</value>
+      <footprint>motor_drive_footprints:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="motor_drive" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/thermistor_2/" tstamps="/5E41D6EC/"/>
+      <tstamp>5E41E7FE</tstamp>
     </comp>
     <comp ref="J7">
       <value>Conn_01x02</value>
+      <footprint>motor_drive_footprints:2pos_254</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <sheetpath names="/therm_2/" tstamps="/5E5F577B/"/>
-      <tstamp>5E5FCAD4</tstamp>
+      <sheetpath names="/thermistor_2/" tstamps="/5E41D6EC/"/>
+      <tstamp>5E41E804</tstamp>
     </comp>
-    <comp ref="C32">
-      <value>2.2uF</value>
+    <comp ref="Q5">
+      <value>nmos</value>
+      <footprint>motor_drive_footprints:NTTGS5820NL-D</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="motor_drive" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/therm_2/" tstamps="/5E5F577B/"/>
-      <tstamp>5E5ED0F0</tstamp>
+      <libsource lib="motor_drive" part="nmos" description="N-MOSFET transistor, drain/gate/source"/>
+      <sheetpath names="/half_bridge_1/" tstamps="/5E257703/"/>
+      <tstamp>5E277B3C</tstamp>
+    </comp>
+    <comp ref="Q6">
+      <value>nmos</value>
+      <footprint>motor_drive_footprints:NTTGS5820NL-D</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="motor_drive" part="nmos" description="N-MOSFET transistor, drain/gate/source"/>
+      <sheetpath names="/half_bridge_1/" tstamps="/5E257703/"/>
+      <tstamp>5E279347</tstamp>
+    </comp>
+    <comp ref="R43">
+      <value>10</value>
+      <footprint>motor_drive_footprints:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="motor_drive" part="R" description="Resistor"/>
+      <sheetpath names="/half_bridge_1/" tstamps="/5E257703/"/>
+      <tstamp>5E27A2EF</tstamp>
+    </comp>
+    <comp ref="R42">
+      <value>10</value>
+      <footprint>motor_drive_footprints:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="motor_drive" part="R" description="Resistor"/>
+      <sheetpath names="/half_bridge_1/" tstamps="/5E257703/"/>
+      <tstamp>5E27D5F7</tstamp>
     </comp>
     <comp ref="R44">
-      <value>3k</value>
-      <datasheet>~</datasheet>
-      <libsource lib="motor_drive" part="R" description="Resistor"/>
-      <sheetpath names="/therm_2/" tstamps="/5E5F577B/"/>
-      <tstamp>5E5FCACD</tstamp>
+      <value>WSL20101L000FEA18</value>
+      <footprint>motor_drive_footprints:WSL20101L000FEA18</footprint>
+      <libsource lib="motor_drive" part="WSL20101L000FEA18" description=""/>
+      <sheetpath names="/half_bridge_1/" tstamps="/5E257703/"/>
+      <tstamp>5E424CCF</tstamp>
     </comp>
-    <comp ref="J5">
-      <value>Conn_01x02</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <sheetpath names="/therm_2/" tstamps="/5E5F577B/"/>
-      <tstamp>5E5FCACE</tstamp>
+    <comp ref="U10">
+      <value>TPS28225DR</value>
+      <footprint>D8</footprint>
+      <libsource lib="motor_drive" part="TPS28225DR" description=""/>
+      <sheetpath names="/gate_drive/" tstamps="/5E4E6DB9/"/>
+      <tstamp>5E4DD8D0</tstamp>
     </comp>
-    <comp ref="C37">
-      <value>2.2uF</value>
+    <comp ref="C49">
+      <value>C</value>
       <datasheet>~</datasheet>
       <libsource lib="motor_drive" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/therm_1/" tstamps="/5E5ED069/"/>
-      <tstamp>5E5FCACF</tstamp>
+      <sheetpath names="/gate_drive/" tstamps="/5E4E6DB9/"/>
+      <tstamp>5E4DD8D1</tstamp>
     </comp>
-    <comp ref="R48">
-      <value>3k</value>
-      <datasheet>~</datasheet>
-      <libsource lib="motor_drive" part="R" description="Resistor"/>
-      <sheetpath names="/therm_1/" tstamps="/5E5ED069/"/>
-      <tstamp>5E5FCAD1</tstamp>
-    </comp>
-    <comp ref="J9">
-      <value>Conn_01x02</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <sheetpath names="/therm_1/" tstamps="/5E5ED069/"/>
-      <tstamp>5E5F82A7</tstamp>
-    </comp>
-    <comp ref="C35">
-      <value>2.2uF</value>
+    <comp ref="C41">
+      <value>C</value>
       <datasheet>~</datasheet>
       <libsource lib="motor_drive" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/therm_1/" tstamps="/5E5ED069/"/>
-      <tstamp>5E5F82A4</tstamp>
+      <sheetpath names="/gate_drive/" tstamps="/5E4E6DB9/"/>
+      <tstamp>5E4DD8D2</tstamp>
     </comp>
-    <comp ref="R47">
-      <value>3k</value>
-      <datasheet>~</datasheet>
-      <libsource lib="motor_drive" part="R" description="Resistor"/>
-      <sheetpath names="/therm_1/" tstamps="/5E5ED069/"/>
-      <tstamp>5E5F82A6</tstamp>
-    </comp>
-    <comp ref="J10">
-      <value>Conn_01x02</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <sheetpath names="/therm_1/" tstamps="/5E5ED069/"/>
-      <tstamp>5E5F82A8</tstamp>
-    </comp>
-    <comp ref="C36">
-      <value>2.2uF</value>
+    <comp ref="C45">
+      <value>C</value>
       <datasheet>~</datasheet>
       <libsource lib="motor_drive" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/therm_1/" tstamps="/5E5ED069/"/>
-      <tstamp>5E5FCACC</tstamp>
+      <sheetpath names="/gate_drive/" tstamps="/5E4E6DB9/"/>
+      <tstamp>5E4DD8D3</tstamp>
     </comp>
     <comp ref="R46">
-      <value>3k</value>
+      <value>R</value>
       <datasheet>~</datasheet>
       <libsource lib="motor_drive" part="R" description="Resistor"/>
-      <sheetpath names="/therm_1/" tstamps="/5E5ED069/"/>
-      <tstamp>5E5ED438</tstamp>
+      <sheetpath names="/gate_drive/" tstamps="/5E4E6DB9/"/>
+      <tstamp>5E4DD8D4</tstamp>
     </comp>
-    <comp ref="J8">
-      <value>Conn_01x02</value>
+    <comp ref="U9">
+      <value>TPS28225DR</value>
+      <footprint>D8</footprint>
+      <libsource lib="motor_drive" part="TPS28225DR" description=""/>
+      <sheetpath names="/gate_drive/" tstamps="/5E4E6DB9/"/>
+      <tstamp>5E4D5EA7</tstamp>
+    </comp>
+    <comp ref="C48">
+      <value>C</value>
       <datasheet>~</datasheet>
-      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <sheetpath names="/therm_1/" tstamps="/5E5ED069/"/>
-      <tstamp>5E5EE37C</tstamp>
+      <libsource lib="motor_drive" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/gate_drive/" tstamps="/5E4E6DB9/"/>
+      <tstamp>5E4D5FC1</tstamp>
+    </comp>
+    <comp ref="C40">
+      <value>C</value>
+      <datasheet>~</datasheet>
+      <libsource lib="motor_drive" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/gate_drive/" tstamps="/5E4E6DB9/"/>
+      <tstamp>5E4D6EFE</tstamp>
+    </comp>
+    <comp ref="C44">
+      <value>C</value>
+      <datasheet>~</datasheet>
+      <libsource lib="motor_drive" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/gate_drive/" tstamps="/5E4E6DB9/"/>
+      <tstamp>5E4D738D</tstamp>
+    </comp>
+    <comp ref="R45">
+      <value>R</value>
+      <datasheet>~</datasheet>
+      <libsource lib="motor_drive" part="R" description="Resistor"/>
+      <sheetpath names="/gate_drive/" tstamps="/5E4E6DB9/"/>
+      <tstamp>5E4D7DAA</tstamp>
+    </comp>
+    <comp ref="U11">
+      <value>TPS28225DR</value>
+      <footprint>D8</footprint>
+      <libsource lib="motor_drive" part="TPS28225DR" description=""/>
+      <sheetpath names="/gate_drive/" tstamps="/5E4E6DB9/"/>
+      <tstamp>5E4DD952</tstamp>
+    </comp>
+    <comp ref="C50">
+      <value>C</value>
+      <datasheet>~</datasheet>
+      <libsource lib="motor_drive" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/gate_drive/" tstamps="/5E4E6DB9/"/>
+      <tstamp>5E4DD953</tstamp>
+    </comp>
+    <comp ref="C42">
+      <value>C</value>
+      <datasheet>~</datasheet>
+      <libsource lib="motor_drive" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/gate_drive/" tstamps="/5E4E6DB9/"/>
+      <tstamp>5E4DD954</tstamp>
+    </comp>
+    <comp ref="C46">
+      <value>C</value>
+      <datasheet>~</datasheet>
+      <libsource lib="motor_drive" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/gate_drive/" tstamps="/5E4E6DB9/"/>
+      <tstamp>5E4DD955</tstamp>
+    </comp>
+    <comp ref="R47">
+      <value>R</value>
+      <datasheet>~</datasheet>
+      <libsource lib="motor_drive" part="R" description="Resistor"/>
+      <sheetpath names="/gate_drive/" tstamps="/5E4E6DB9/"/>
+      <tstamp>5E4DD956</tstamp>
+    </comp>
+    <comp ref="U12">
+      <value>TPS28225DR</value>
+      <footprint>D8</footprint>
+      <libsource lib="motor_drive" part="TPS28225DR" description=""/>
+      <sheetpath names="/gate_drive/" tstamps="/5E4E6DB9/"/>
+      <tstamp>5E4DD9D1</tstamp>
+    </comp>
+    <comp ref="C51">
+      <value>C</value>
+      <datasheet>~</datasheet>
+      <libsource lib="motor_drive" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/gate_drive/" tstamps="/5E4E6DB9/"/>
+      <tstamp>5E4DD9D2</tstamp>
+    </comp>
+    <comp ref="C43">
+      <value>C</value>
+      <datasheet>~</datasheet>
+      <libsource lib="motor_drive" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/gate_drive/" tstamps="/5E4E6DB9/"/>
+      <tstamp>5E4DD9D3</tstamp>
+    </comp>
+    <comp ref="C47">
+      <value>C</value>
+      <datasheet>~</datasheet>
+      <libsource lib="motor_drive" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/gate_drive/" tstamps="/5E4E6DB9/"/>
+      <tstamp>5E4DD9D4</tstamp>
+    </comp>
+    <comp ref="R48">
+      <value>R</value>
+      <datasheet>~</datasheet>
+      <libsource lib="motor_drive" part="R" description="Resistor"/>
+      <sheetpath names="/gate_drive/" tstamps="/5E4E6DB9/"/>
+      <tstamp>5E4DD9D5</tstamp>
     </comp>
   </components>
   <libparts>
@@ -1125,20 +1208,21 @@
         <pin num="2" name="Pin_2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Connector_Generic" part="Conn_01x03">
-      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+    <libpart lib="Connector_Generic" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
       <docs>~</docs>
       <footprints>
         <fp>Connector*:*_1x??_*</fp>
       </footprints>
       <fields>
         <field name="Reference">J</field>
-        <field name="Value">Conn_01x03</field>
+        <field name="Value">Conn_01x04</field>
       </fields>
       <pins>
         <pin num="1" name="Pin_1" type="passive"/>
         <pin num="2" name="Pin_2" type="passive"/>
         <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Connector_Generic" part="Conn_01x06">
@@ -1234,58 +1318,6 @@
       <pins>
         <pin num="1" name="~" type="passive"/>
         <pin num="2" name="~" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="motor_drive" part="D">
-      <description>Diode</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>TO-???*</fp>
-        <fp>*_Diode_*</fp>
-        <fp>*SingleDiode*</fp>
-        <fp>D_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">D</field>
-        <field name="Value">D</field>
-      </fields>
-      <pins>
-        <pin num="1" name="K" type="passive"/>
-        <pin num="2" name="A" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="motor_drive" part="FAN7888_gen">
-      <description>3 Half-Bridge Gate-Drive IC, 200V operation, Output Current 350/650mA, SOIC-20</description>
-      <docs>http://www.onsemi.com/pub/Collateral/FAN7888-D.pdf</docs>
-      <footprints>
-        <fp>SOIC*7.5x12.8*P1.27mm*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">FAN7888_gen</field>
-        <field name="Footprint">Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm</field>
-      </fields>
-      <pins>
-        <pin num="1" name="HIN1" type="input"/>
-        <pin num="2" name="LIN1" type="input"/>
-        <pin num="3" name="HIN2" type="input"/>
-        <pin num="4" name="LIN2" type="input"/>
-        <pin num="5" name="HIN3" type="input"/>
-        <pin num="6" name="LIN3" type="input"/>
-        <pin num="7" name="LO3" type="output"/>
-        <pin num="8" name="VS3" type="passive"/>
-        <pin num="9" name="HO3" type="output"/>
-        <pin num="10" name="VB3" type="passive"/>
-        <pin num="11" name="GND" type="power_in"/>
-        <pin num="12" name="VDD" type="power_in"/>
-        <pin num="13" name="LO2" type="output"/>
-        <pin num="14" name="VS2" type="passive"/>
-        <pin num="15" name="HO2" type="output"/>
-        <pin num="16" name="VB2" type="passive"/>
-        <pin num="17" name="LO1" type="output"/>
-        <pin num="18" name="VS1" type="passive"/>
-        <pin num="19" name="HO1" type="output"/>
-        <pin num="20" name="VB1" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="motor_drive" part="L">
@@ -1399,6 +1431,44 @@
         <pin num="48" name="UART_RX" type="input"/>
       </pins>
     </libpart>
+    <libpart lib="motor_drive" part="TPS28225DR">
+      <footprints>
+        <fp>D8</fp>
+        <fp>D8-M</fp>
+        <fp>D8-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS28225DR</field>
+        <field name="Footprint">D8</field>
+      </fields>
+      <pins>
+        <pin num="1" name="UGATE" type="output"/>
+        <pin num="2" name="BOOT" type="BiDi"/>
+        <pin num="3" name="PWM" type="input"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="LGATE" type="output"/>
+        <pin num="6" name="VDD" type="input"/>
+        <pin num="7" name="EN/PG" type="BiDi"/>
+        <pin num="8" name="PHASE" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="motor_drive" part="WSL20101L000FEA18">
+      <footprints>
+        <fp>RC2010N</fp>
+        <fp>RC2010N-M</fp>
+        <fp>RC2010N-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">WSL20101L000FEA18</field>
+        <field name="Footprint">RC2010N</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspc"/>
+        <pin num="2" name="2" type="unspc"/>
+      </pins>
+    </libpart>
     <libpart lib="motor_drive" part="nmos">
       <description>N-MOSFET transistor, drain/gate/source</description>
       <docs>~</docs>
@@ -1425,373 +1495,353 @@
     </library>
   </libraries>
   <nets>
-    <net code="1" name="/CLK">
-      <node ref="R39" pin="2"/>
-      <node ref="J3" pin="4"/>
+    <net code="1" name="/LS_1">
+      <node ref="U7" pin="29"/>
     </net>
-    <net code="2" name="/5.0V">
-      <node ref="C24" pin="1"/>
-      <node ref="R18" pin="2"/>
-      <node ref="C13" pin="1"/>
-      <node ref="C23" pin="1"/>
-      <node ref="C1" pin="2"/>
-      <node ref="U2" pin="6"/>
-      <node ref="C8" pin="2"/>
-      <node ref="U5" pin="7"/>
-      <node ref="U2" pin="7"/>
-      <node ref="C10" pin="1"/>
-      <node ref="C12" pin="1"/>
-      <node ref="R13" pin="1"/>
-      <node ref="C21" pin="1"/>
-      <node ref="C4" pin="2"/>
-      <node ref="C3" pin="2"/>
-      <node ref="C14" pin="2"/>
-      <node ref="U6" pin="8"/>
-      <node ref="D3" pin="2"/>
-      <node ref="R27" pin="2"/>
-      <node ref="R29" pin="2"/>
-      <node ref="U7" pin="12"/>
-      <node ref="R34" pin="2"/>
-      <node ref="D2" pin="2"/>
-      <node ref="D1" pin="2"/>
-      <node ref="U9" pin="7"/>
-      <node ref="U9" pin="6"/>
-      <node ref="U8" pin="44"/>
-      <node ref="C16" pin="1"/>
-      <node ref="C17" pin="1"/>
-      <node ref="R33" pin="2"/>
-      <node ref="R31" pin="2"/>
-      <node ref="R28" pin="2"/>
-      <node ref="R30" pin="2"/>
-      <node ref="R32" pin="2"/>
-      <node ref="U3" pin="7"/>
-      <node ref="C22" pin="1"/>
-      <node ref="U3" pin="6"/>
-      <node ref="C5" pin="2"/>
-      <node ref="U1" pin="7"/>
-      <node ref="U4" pin="6"/>
-      <node ref="U4" pin="7"/>
-      <node ref="U1" pin="6"/>
-      <node ref="C31" pin="2"/>
-      <node ref="C30" pin="2"/>
-      <node ref="U8" pin="32"/>
-      <node ref="C7" pin="2"/>
-      <node ref="C6" pin="2"/>
-      <node ref="C2" pin="2"/>
-      <node ref="C29" pin="1"/>
-      <node ref="L1" pin="2"/>
-      <node ref="J10" pin="1"/>
-      <node ref="J6" pin="1"/>
-      <node ref="R26" pin="2"/>
-      <node ref="J5" pin="1"/>
-      <node ref="J8" pin="1"/>
-      <node ref="J7" pin="1"/>
-      <node ref="J9" pin="1"/>
-      <node ref="C25" pin="1"/>
-      <node ref="L2" pin="1"/>
-      <node ref="J3" pin="5"/>
-    </net>
-    <net code="3" name="/GND">
-      <node ref="C2" pin="1"/>
-      <node ref="C22" pin="2"/>
-      <node ref="J3" pin="6"/>
-      <node ref="C24" pin="2"/>
-      <node ref="C1" pin="1"/>
-      <node ref="U1" pin="3"/>
-      <node ref="U1" pin="2"/>
-      <node ref="C7" pin="1"/>
-      <node ref="U4" pin="3"/>
-      <node ref="U8" pin="33"/>
-      <node ref="U4" pin="2"/>
-      <node ref="C5" pin="1"/>
-      <node ref="U7" pin="11"/>
-      <node ref="C29" pin="2"/>
-      <node ref="C28" pin="2"/>
-      <node ref="R24" pin="1"/>
-      <node ref="U8" pin="12"/>
-      <node ref="U9" pin="3"/>
-      <node ref="C34" pin="2"/>
-      <node ref="R45" pin="1"/>
-      <node ref="C27" pin="1"/>
-      <node ref="U9" pin="2"/>
-      <node ref="C16" pin="2"/>
-      <node ref="C17" pin="2"/>
-      <node ref="C33" pin="2"/>
-      <node ref="J4" pin="6"/>
-      <node ref="C30" pin="1"/>
-      <node ref="C6" pin="1"/>
-      <node ref="R43" pin="1"/>
-      <node ref="C25" pin="2"/>
+    <net code="2" name="/GND">
+      <node ref="C37" pin="1"/>
       <node ref="U3" pin="2"/>
-      <node ref="C32" pin="2"/>
-      <node ref="U8" pin="43"/>
-      <node ref="R44" pin="1"/>
-      <node ref="R23" pin="1"/>
-      <node ref="U3" pin="3"/>
-      <node ref="C31" pin="1"/>
-      <node ref="C26" pin="2"/>
-      <node ref="R46" pin="1"/>
-      <node ref="C3" pin="1"/>
-      <node ref="C36" pin="2"/>
-      <node ref="R47" pin="1"/>
-      <node ref="C35" pin="2"/>
-      <node ref="C4" pin="1"/>
-      <node ref="R20" pin="1"/>
-      <node ref="R14" pin="2"/>
-      <node ref="R17" pin="1"/>
-      <node ref="R48" pin="1"/>
-      <node ref="C37" pin="2"/>
-      <node ref="C12" pin="2"/>
-      <node ref="U6" pin="5"/>
-      <node ref="C23" pin="2"/>
-      <node ref="U5" pin="8"/>
-      <node ref="C10" pin="2"/>
+      <node ref="C36" pin="1"/>
+      <node ref="U8" pin="2"/>
+      <node ref="U8" pin="3"/>
+      <node ref="C2" pin="1"/>
+      <node ref="C1" pin="1"/>
       <node ref="U2" pin="2"/>
       <node ref="U2" pin="3"/>
-      <node ref="C8" pin="1"/>
-      <node ref="C15" pin="1"/>
-      <node ref="C13" pin="2"/>
-      <node ref="U5" pin="1"/>
-      <node ref="U5" pin="3"/>
-      <node ref="C21" pin="2"/>
-      <node ref="U5" pin="6"/>
-    </net>
-    <net code="4" name="/nEN">
-      <node ref="J3" pin="3"/>
-      <node ref="R41" pin="2"/>
-    </net>
-    <net code="5" name="/MISO">
-      <node ref="R37" pin="2"/>
-      <node ref="J3" pin="1"/>
-    </net>
-    <net code="6" name="/MOSI">
-      <node ref="R35" pin="2"/>
-      <node ref="J3" pin="2"/>
-    </net>
-    <net code="7" name="/I_sense_1">
-      <node ref="U8" pin="13"/>
-      <node ref="U9" pin="5"/>
-      <node ref="U8" pin="4"/>
-    </net>
-    <net code="8" name="/cos">
-      <node ref="U8" pin="18"/>
-      <node ref="U8" pin="10"/>
-      <node ref="U5" pin="2"/>
-    </net>
-    <net code="9" name="/VDC_sense">
-      <node ref="U8" pin="8"/>
-      <node ref="U4" pin="5"/>
-    </net>
-    <net code="10" name="/IDC_sense">
-      <node ref="U3" pin="5"/>
-      <node ref="U8" pin="7"/>
-    </net>
-    <net code="11" name="/I_sense_3">
-      <node ref="U8" pin="6"/>
-      <node ref="U2" pin="5"/>
-    </net>
-    <net code="12" name="/balance">
-      <node ref="R17" pin="2"/>
-    </net>
-    <net code="13" name="/B">
-      <node ref="R21" pin="2"/>
-    </net>
-    <net code="14" name="/A">
-      <node ref="R22" pin="2"/>
-    </net>
-    <net code="15" name="/I_sense_n2">
-      <node ref="J2" pin="2"/>
-      <node ref="R6" pin="1"/>
-    </net>
-    <net code="16" name="/I_sense_p2">
-      <node ref="R6" pin="2"/>
-      <node ref="Q4" pin="1"/>
-      <node ref="Q3" pin="3"/>
-      <node ref="C19" pin="2"/>
-      <node ref="U7" pin="14"/>
-    </net>
-    <net code="17" name="/I_sense_n1">
-      <node ref="J2" pin="1"/>
-      <node ref="R3" pin="1"/>
-    </net>
-    <net code="18" name="/I_sense_2">
-      <node ref="U1" pin="5"/>
-      <node ref="U8" pin="14"/>
-      <node ref="U8" pin="5"/>
-    </net>
-    <net code="19" name="/I_sense_1n">
-      <node ref="U9" pin="1"/>
-    </net>
-    <net code="20" name="/I_sense_1p">
-      <node ref="U9" pin="8"/>
-    </net>
-    <net code="21" name="/I_sense_n3">
-      <node ref="R9" pin="1"/>
-      <node ref="J2" pin="3"/>
-    </net>
-    <net code="22" name="/BUTTON_1">
-      <node ref="U8" pin="41"/>
-    </net>
-    <net code="23" name="/BUTTON_0">
-      <node ref="U8" pin="42"/>
-    </net>
-    <net code="24" name="/chip_reset">
-      <node ref="C27" pin="2"/>
-      <node ref="R26" pin="1"/>
-      <node ref="U8" pin="3"/>
-    </net>
-    <net code="25" name="/LED_2">
-      <node ref="U8" pin="31"/>
-    </net>
-    <net code="26" name="/LED_0">
-      <node ref="U8" pin="19"/>
-    </net>
-    <net code="27" name="/HS_1">
-      <node ref="U8" pin="28"/>
-      <node ref="U7" pin="1"/>
-    </net>
-    <net code="28" name="/LS_3">
-      <node ref="U8" pin="40"/>
-      <node ref="U7" pin="6"/>
-    </net>
-    <net code="29" name="/HS_3">
-      <node ref="U8" pin="39"/>
-      <node ref="U7" pin="5"/>
-    </net>
-    <net code="30" name="/LS_2">
-      <node ref="U8" pin="38"/>
-      <node ref="U7" pin="4"/>
-    </net>
-    <net code="31" name="/HS_2">
-      <node ref="U7" pin="3"/>
-      <node ref="U8" pin="37"/>
-    </net>
-    <net code="32" name="/LS_1">
-      <node ref="U7" pin="2"/>
-      <node ref="U8" pin="29"/>
-    </net>
-    <net code="33" name="/sin">
-      <node ref="U8" pin="17"/>
-      <node ref="U8" pin="9"/>
-      <node ref="U5" pin="4"/>
-    </net>
-    <net code="34" name="/therm_2">
-      <node ref="C32" pin="1"/>
-      <node ref="J5" pin="2"/>
-      <node ref="C34" pin="1"/>
-      <node ref="R45" pin="2"/>
-      <node ref="J7" pin="2"/>
-      <node ref="R44" pin="2"/>
-      <node ref="C33" pin="1"/>
-      <node ref="R43" pin="2"/>
-      <node ref="U8" pin="16"/>
-      <node ref="J6" pin="2"/>
-    </net>
-    <net code="35" name="/therm_1">
-      <node ref="J9" pin="2"/>
-      <node ref="R47" pin="2"/>
-      <node ref="J10" pin="2"/>
-      <node ref="R48" pin="2"/>
-      <node ref="U8" pin="15"/>
-      <node ref="C35" pin="1"/>
-      <node ref="C37" pin="1"/>
-      <node ref="R46" pin="2"/>
-      <node ref="J8" pin="2"/>
-      <node ref="C36" pin="1"/>
-    </net>
-    <net code="36" name="/LED_1">
-      <node ref="U8" pin="36"/>
-    </net>
-    <net code="37" name="/DEnRE">
-      <node ref="U8" pin="47"/>
-      <node ref="U6" pin="3"/>
-      <node ref="U6" pin="2"/>
-      <node ref="R13" pin="2"/>
+      <node ref="R40" pin="2"/>
+      <node ref="C38" pin="2"/>
+      <node ref="C6" pin="1"/>
+      <node ref="U1" pin="2"/>
+      <node ref="U1" pin="3"/>
       <node ref="R14" pin="1"/>
-    </net>
-    <net code="38" name="/UART_RX">
-      <node ref="R15" pin="1"/>
-      <node ref="U8" pin="48"/>
-    </net>
-    <net code="39" name="/UART_TX">
-      <node ref="U8" pin="1"/>
-      <node ref="R16" pin="1"/>
-    </net>
-    <net code="40" name="/DC_neg">
-      <node ref="Q2" pin="3"/>
-      <node ref="Q6" pin="3"/>
-      <node ref="Q4" pin="3"/>
-      <node ref="U4" pin="1"/>
+      <node ref="U5" pin="6"/>
+      <node ref="U5" pin="3"/>
+      <node ref="U5" pin="8"/>
+      <node ref="U5" pin="1"/>
+      <node ref="C21" pin="2"/>
       <node ref="R11" pin="2"/>
+      <node ref="U6" pin="5"/>
+      <node ref="C23" pin="2"/>
+      <node ref="C5" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="R17" pin="1"/>
+      <node ref="U3" pin="3"/>
+      <node ref="C26" pin="1"/>
+      <node ref="U4" pin="2"/>
+      <node ref="U4" pin="3"/>
+      <node ref="C7" pin="1"/>
+      <node ref="C24" pin="2"/>
+      <node ref="C22" pin="2"/>
+      <node ref="R20" pin="1"/>
+      <node ref="C32" pin="2"/>
+      <node ref="C34" pin="2"/>
+      <node ref="C31" pin="2"/>
+      <node ref="C35" pin="2"/>
+      <node ref="R21" pin="1"/>
+      <node ref="J4" pin="6"/>
+      <node ref="C28" pin="2"/>
+      <node ref="U7" pin="33"/>
+      <node ref="C27" pin="2"/>
+      <node ref="C29" pin="2"/>
+      <node ref="C4" pin="1"/>
+      <node ref="C30" pin="2"/>
+      <node ref="U7" pin="12"/>
+      <node ref="C39" pin="2"/>
+      <node ref="U7" pin="43"/>
       <node ref="J1" pin="1"/>
+      <node ref="R41" pin="2"/>
+      <node ref="C3" pin="1"/>
+      <node ref="C33" pin="1"/>
+      <node ref="J5" pin="6"/>
     </net>
-    <net code="41" name="/VDC_sense_p">
-      <node ref="R10" pin="2"/>
-      <node ref="U4" pin="8"/>
-      <node ref="R11" pin="1"/>
+    <net code="3" name="/LS_3">
+      <node ref="U7" pin="40"/>
     </net>
-    <net code="42" name="/IDC_sense_n">
-      <node ref="R12" pin="2"/>
-      <node ref="J1" pin="2"/>
-      <node ref="U3" pin="1"/>
+    <net code="4" name="/HS_3">
+      <node ref="U7" pin="39"/>
     </net>
-    <net code="43" name="/DC_pos">
-      <node ref="R12" pin="1"/>
-      <node ref="U3" pin="8"/>
-      <node ref="Q3" pin="1"/>
-      <node ref="Q1" pin="1"/>
-      <node ref="R10" pin="1"/>
-      <node ref="Q5" pin="1"/>
+    <net code="5" name="/LS_2">
+      <node ref="U7" pin="38"/>
     </net>
-    <net code="44" name="/GL_3">
-      <node ref="U7" pin="7"/>
-      <node ref="R8" pin="2"/>
+    <net code="6" name="/HS_2">
+      <node ref="U7" pin="37"/>
     </net>
-    <net code="45" name="/GH_3">
-      <node ref="R7" pin="2"/>
+    <net code="7" name="/sin">
+      <node ref="U7" pin="17"/>
+      <node ref="U5" pin="4"/>
       <node ref="U7" pin="9"/>
     </net>
-    <net code="46" name="/GL_2">
-      <node ref="R5" pin="2"/>
-      <node ref="U7" pin="13"/>
+    <net code="8" name="/therm_2">
+      <node ref="J7" pin="2"/>
+      <node ref="U7" pin="16"/>
+      <node ref="R41" pin="1"/>
+      <node ref="C39" pin="1"/>
     </net>
-    <net code="47" name="/I_sense_p3">
-      <node ref="C20" pin="2"/>
-      <node ref="Q5" pin="3"/>
-      <node ref="U7" pin="8"/>
-      <node ref="R9" pin="2"/>
-      <node ref="Q6" pin="1"/>
-    </net>
-    <net code="48" name="/I_sense_p1">
-      <node ref="R3" pin="2"/>
-      <node ref="Q1" pin="3"/>
-      <node ref="Q2" pin="1"/>
-      <node ref="U7" pin="18"/>
-      <node ref="C18" pin="2"/>
-    </net>
-    <net code="49" name="/GL_1">
-      <node ref="U7" pin="17"/>
-      <node ref="R2" pin="2"/>
-    </net>
-    <net code="50" name="/I_sense_3p">
-      <node ref="U2" pin="8"/>
-    </net>
-    <net code="51" name="/I_sense_3n">
-      <node ref="U2" pin="1"/>
-    </net>
-    <net code="52" name="/I_sense_2n">
-      <node ref="U1" pin="1"/>
-    </net>
-    <net code="53" name="/I_sense_2p">
-      <node ref="U1" pin="8"/>
-    </net>
-    <net code="54" name="/GH_2">
+    <net code="9" name="/therm_1">
+      <node ref="C38" pin="1"/>
+      <node ref="J6" pin="2"/>
+      <node ref="R40" pin="1"/>
       <node ref="U7" pin="15"/>
+    </net>
+    <net code="10" name="/I_sense_2">
+      <node ref="U1" pin="5"/>
+      <node ref="U7" pin="14"/>
+      <node ref="U7" pin="5"/>
+    </net>
+    <net code="11" name="/I_sense_1">
+      <node ref="U7" pin="4"/>
+      <node ref="U7" pin="13"/>
+      <node ref="U8" pin="5"/>
+    </net>
+    <net code="12" name="/cos">
+      <node ref="U7" pin="18"/>
+      <node ref="U5" pin="2"/>
+      <node ref="U7" pin="10"/>
+    </net>
+    <net code="13" name="/VDC_sense">
+      <node ref="U7" pin="8"/>
+      <node ref="U4" pin="5"/>
+    </net>
+    <net code="14" name="/MISO">
+      <node ref="R34" pin="2"/>
+      <node ref="J4" pin="2"/>
+    </net>
+    <net code="15" name="/nEN">
+      <node ref="J4" pin="3"/>
+      <node ref="R38" pin="2"/>
+    </net>
+    <net code="16" name="/MOSI">
+      <node ref="R32" pin="2"/>
+      <node ref="J4" pin="1"/>
+    </net>
+    <net code="17" name="/IDC_sense">
+      <node ref="U3" pin="5"/>
+      <node ref="U7" pin="7"/>
+    </net>
+    <net code="18" name="/HS_1">
+      <node ref="U7" pin="28"/>
+    </net>
+    <net code="19" name="/BUTTON_0">
+      <node ref="U7" pin="42"/>
+    </net>
+    <net code="20" name="/DEnRE">
+      <node ref="U7" pin="47"/>
+      <node ref="R10" pin="2"/>
+      <node ref="U6" pin="2"/>
+      <node ref="U6" pin="3"/>
+      <node ref="R11" pin="1"/>
+    </net>
+    <net code="21" name="/BUTTON_1">
+      <node ref="U7" pin="41"/>
+    </net>
+    <net code="22" name="/LED_2">
+      <node ref="U7" pin="31"/>
+    </net>
+    <net code="23" name="/LED_1">
+      <node ref="U7" pin="36"/>
+    </net>
+    <net code="24" name="/CLK">
+      <node ref="J4" pin="4"/>
+      <node ref="R36" pin="2"/>
+    </net>
+    <net code="25" name="/5.0V">
+      <node ref="U2" pin="7"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="J6" pin="1"/>
+      <node ref="J7" pin="1"/>
+      <node ref="C3" pin="2"/>
+      <node ref="R26" pin="2"/>
+      <node ref="R28" pin="2"/>
+      <node ref="R30" pin="2"/>
+      <node ref="R27" pin="2"/>
+      <node ref="R24" pin="2"/>
+      <node ref="R29" pin="2"/>
+      <node ref="L2" pin="1"/>
+      <node ref="C35" pin="1"/>
+      <node ref="R23" pin="2"/>
+      <node ref="L1" pin="2"/>
+      <node ref="J4" pin="5"/>
+      <node ref="R31" pin="2"/>
+      <node ref="C31" pin="1"/>
+      <node ref="U2" pin="6"/>
+      <node ref="C4" pin="2"/>
+      <node ref="U4" pin="6"/>
+      <node ref="C21" pin="1"/>
+      <node ref="R15" pin="2"/>
+      <node ref="C27" pin="1"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C24" pin="1"/>
+      <node ref="U4" pin="7"/>
+      <node ref="C29" pin="1"/>
+      <node ref="C8" pin="2"/>
+      <node ref="R25" pin="2"/>
+      <node ref="U5" pin="7"/>
+      <node ref="U6" pin="8"/>
+      <node ref="C23" pin="1"/>
+      <node ref="R10" pin="1"/>
+      <node ref="U7" pin="32"/>
+      <node ref="C22" pin="1"/>
+      <node ref="U8" pin="7"/>
+      <node ref="U8" pin="6"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C25" pin="2"/>
+      <node ref="C37" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="U7" pin="44"/>
+      <node ref="U1" pin="7"/>
+      <node ref="U1" pin="6"/>
+      <node ref="U3" pin="7"/>
+      <node ref="U3" pin="6"/>
+      <node ref="C30" pin="1"/>
+      <node ref="C28" pin="1"/>
+      <node ref="C36" pin="2"/>
+    </net>
+    <net code="26" name="/I_sense_3">
+      <node ref="U2" pin="5"/>
+      <node ref="U7" pin="6"/>
+    </net>
+    <net code="27" name="/balance">
+      <node ref="J1" pin="2"/>
+      <node ref="R14" pin="2"/>
+    </net>
+    <net code="28" name="/LED_0">
+      <node ref="U7" pin="19"/>
+    </net>
+    <net code="29" name="/B">
+      <node ref="R18" pin="2"/>
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="30" name="/A">
+      <node ref="R19" pin="2"/>
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="31" name="/IDC_sense_p">
+      <node ref="U3" pin="8"/>
+      <node ref="J2" pin="2"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="32" name="/half_bridge_2/M">
+      <node ref="R3" pin="1"/>
+      <node ref="J3" pin="2"/>
+    </net>
+    <net code="33" name="/phase_shield">
+      <node ref="J3" pin="4"/>
+      <node ref="C11" pin="2"/>
+      <node ref="C12" pin="1"/>
+    </net>
+    <net code="34" name="/half_bridge_1/M">
+      <node ref="R44" pin="1"/>
+      <node ref="J3" pin="1"/>
+    </net>
+    <net code="35" name="/half_bridge_3/M">
+      <node ref="J3" pin="3"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="36" name="/chip_reset">
+      <node ref="R23" pin="1"/>
+      <node ref="C33" pin="2"/>
+      <node ref="U7" pin="3"/>
+    </net>
+    <net code="37" name="/I_sense_p1">
+      <node ref="Q6" pin="1"/>
+      <node ref="R44" pin="2"/>
+      <node ref="Q5" pin="3"/>
+      <node ref="U8" pin="8"/>
+    </net>
+    <net code="38" name="/UART_RX">
+      <node ref="R12" pin="1"/>
+      <node ref="U7" pin="48"/>
+    </net>
+    <net code="39" name="/UART_TX">
+      <node ref="R13" pin="1"/>
+      <node ref="U7" pin="1"/>
+    </net>
+    <net code="40" name="/DC_neg">
+      <node ref="C20" pin="2"/>
+      <node ref="C14" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C16" pin="2"/>
+      <node ref="U2" pin="1"/>
+      <node ref="C17" pin="2"/>
+      <node ref="R9" pin="2"/>
+      <node ref="C19" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="C15" pin="2"/>
+      <node ref="C12" pin="2"/>
+      <node ref="C18" pin="2"/>
+      <node ref="Q4" pin="3"/>
+      <node ref="Q2" pin="3"/>
+      <node ref="J2" pin="1"/>
+      <node ref="Q6" pin="3"/>
+      <node ref="U1" pin="1"/>
+      <node ref="U8" pin="1"/>
+    </net>
+    <net code="41" name="/VDC_sense_p">
+      <node ref="R8" pin="2"/>
+      <node ref="U4" pin="8"/>
+      <node ref="R9" pin="1"/>
+    </net>
+    <net code="42" name="/DC_pos">
+      <node ref="R7" pin="1"/>
+      <node ref="C10" pin="1"/>
+      <node ref="Q3" pin="1"/>
+      <node ref="C11" pin="1"/>
+      <node ref="U3" pin="1"/>
+      <node ref="Q5" pin="1"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="C18" pin="1"/>
+      <node ref="C20" pin="1"/>
+      <node ref="C19" pin="1"/>
+      <node ref="C14" pin="1"/>
+      <node ref="C17" pin="1"/>
+      <node ref="C15" pin="1"/>
+      <node ref="R8" pin="1"/>
+      <node ref="C13" pin="1"/>
+      <node ref="C9" pin="1"/>
+      <node ref="C16" pin="1"/>
+    </net>
+    <net code="43" name="/GH_2">
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="44" name="/GL_1">
+      <node ref="R43" pin="2"/>
+    </net>
+    <net code="45" name="/GH_1">
+      <node ref="R42" pin="2"/>
+    </net>
+    <net code="46" name="/GL_3">
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="47" name="/GH_3">
       <node ref="R4" pin="2"/>
     </net>
-    <net code="55" name="/GH_1">
-      <node ref="R1" pin="2"/>
-      <node ref="U7" pin="19"/>
+    <net code="48" name="/I_sense_p2">
+      <node ref="Q2" pin="1"/>
+      <node ref="Q1" pin="3"/>
+      <node ref="R3" pin="2"/>
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="49" name="/GL_2">
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="50" name="/VDC_sense_n">
+      <node ref="U4" pin="1"/>
+    </net>
+    <net code="51" name="/I_sense_p3">
+      <node ref="R6" pin="2"/>
+      <node ref="Q3" pin="3"/>
+      <node ref="U2" pin="8"/>
+      <node ref="Q4" pin="1"/>
+    </net>
+    <net code="54" name="Net-(Q5-Pad2)">
+      <node ref="Q5" pin="2"/>
+      <node ref="R42" pin="1"/>
+    </net>
+    <net code="55" name="Net-(Q6-Pad2)">
+      <node ref="R43" pin="1"/>
+      <node ref="Q6" pin="2"/>
     </net>
     <net code="56" name="Net-(Q2-Pad2)">
       <node ref="R2" pin="1"/>
@@ -1806,171 +1856,216 @@
       <node ref="Q4" pin="2"/>
     </net>
     <net code="59" name="Net-(Q3-Pad2)">
-      <node ref="R4" pin="1"/>
       <node ref="Q3" pin="2"/>
+      <node ref="R4" pin="1"/>
     </net>
-    <net code="60" name="Net-(Q6-Pad2)">
-      <node ref="Q6" pin="2"/>
-      <node ref="R8" pin="1"/>
+    <net code="60" name="Net-(U8-Pad4)">
+      <node ref="U8" pin="4"/>
     </net>
-    <net code="61" name="Net-(Q5-Pad2)">
-      <node ref="Q5" pin="2"/>
-      <node ref="R7" pin="1"/>
-    </net>
-    <net code="62" name="Net-(C19-Pad1)">
-      <node ref="U7" pin="16"/>
-      <node ref="D2" pin="1"/>
-      <node ref="C19" pin="1"/>
-    </net>
-    <net code="63" name="Net-(C20-Pad1)">
-      <node ref="D3" pin="1"/>
-      <node ref="U7" pin="10"/>
-      <node ref="C20" pin="1"/>
-    </net>
-    <net code="64" name="Net-(C18-Pad1)">
-      <node ref="D1" pin="1"/>
-      <node ref="C18" pin="1"/>
-      <node ref="U7" pin="20"/>
-    </net>
-    <net code="65" name="Net-(U9-Pad4)">
-      <node ref="U9" pin="4"/>
-    </net>
-    <net code="66" name="Net-(U1-Pad4)">
+    <net code="61" name="Net-(U1-Pad4)">
       <node ref="U1" pin="4"/>
     </net>
-    <net code="67" name="Net-(U2-Pad4)">
+    <net code="62" name="Net-(U2-Pad4)">
       <node ref="U2" pin="4"/>
     </net>
-    <net code="68" name="Net-(R34-Pad1)">
-      <node ref="R34" pin="1"/>
-      <node ref="U8" pin="23"/>
-      <node ref="R36" pin="1"/>
+    <net code="63" name="/F28027/JTAG_nTRST">
+      <node ref="J5" pin="5"/>
+      <node ref="R22" pin="2"/>
     </net>
-    <net code="69" name="/F28027/JTAG_TCK">
-      <node ref="J4" pin="1"/>
-      <node ref="R36" pin="2"/>
+    <net code="64" name="/F28027/JTAG_TDO">
+      <node ref="J5" pin="2"/>
+      <node ref="R35" pin="2"/>
     </net>
-    <net code="70" name="/F28027/JTAG_TDI">
-      <node ref="R42" pin="2"/>
-      <node ref="J4" pin="4"/>
+    <net code="65" name="/F28027/JTAG_TMS">
+      <node ref="R37" pin="2"/>
+      <node ref="J5" pin="3"/>
     </net>
-    <net code="71" name="/F28027/JTAG_TMS">
-      <node ref="J4" pin="3"/>
-      <node ref="R40" pin="2"/>
+    <net code="66" name="/F28027/JTAG_TDI">
+      <node ref="R39" pin="2"/>
+      <node ref="J5" pin="4"/>
     </net>
-    <net code="72" name="/F28027/JTAG_TDO">
-      <node ref="J4" pin="2"/>
-      <node ref="R38" pin="2"/>
+    <net code="67" name="/F28027/JTAG_TCK">
+      <node ref="J5" pin="1"/>
+      <node ref="R33" pin="2"/>
     </net>
-    <net code="73" name="Net-(R24-Pad2)">
-      <node ref="R24" pin="2"/>
-      <node ref="U8" pin="34"/>
+    <net code="68" name="Net-(R21-Pad2)">
+      <node ref="U7" pin="34"/>
+      <node ref="R21" pin="2"/>
     </net>
-    <net code="74" name="/F28027/JTAG_nTRST">
-      <node ref="J4" pin="5"/>
-      <node ref="R25" pin="2"/>
+    <net code="69" name="Net-(U7-Pad30)">
+      <node ref="U7" pin="30"/>
     </net>
-    <net code="75" name="Net-(C26-Pad1)">
-      <node ref="U8" pin="35"/>
-      <node ref="C26" pin="1"/>
+    <net code="70" name="Net-(C32-Pad1)">
       <node ref="L1" pin="1"/>
+      <node ref="C32" pin="1"/>
+      <node ref="U7" pin="35"/>
     </net>
-    <net code="76" name="Net-(R23-Pad2)">
-      <node ref="R23" pin="2"/>
-      <node ref="U8" pin="2"/>
-      <node ref="R25" pin="1"/>
+    <net code="71" name="Net-(R20-Pad2)">
+      <node ref="R20" pin="2"/>
+      <node ref="R22" pin="1"/>
+      <node ref="U7" pin="2"/>
     </net>
-    <net code="77" name="Net-(C28-Pad1)">
+    <net code="72" name="Net-(C34-Pad1)">
+      <node ref="C34" pin="1"/>
+      <node ref="U7" pin="11"/>
       <node ref="L2" pin="2"/>
-      <node ref="C28" pin="1"/>
-      <node ref="U8" pin="11"/>
     </net>
-    <net code="78" name="Net-(R33-Pad1)">
-      <node ref="R35" pin="1"/>
-      <node ref="U8" pin="27"/>
+    <net code="73" name="Net-(U7-Pad45)">
+      <node ref="U7" pin="45"/>
+    </net>
+    <net code="74" name="Net-(U7-Pad46)">
+      <node ref="U7" pin="46"/>
+    </net>
+    <net code="75" name="Net-(R31-Pad1)">
+      <node ref="U7" pin="23"/>
       <node ref="R33" pin="1"/>
-    </net>
-    <net code="79" name="Net-(R31-Pad1)">
-      <node ref="R37" pin="1"/>
       <node ref="R31" pin="1"/>
-      <node ref="U8" pin="26"/>
     </net>
-    <net code="80" name="Net-(R29-Pad1)">
+    <net code="76" name="Net-(R29-Pad1)">
       <node ref="R29" pin="1"/>
-      <node ref="R39" pin="1"/>
-      <node ref="U8" pin="25"/>
+      <node ref="R35" pin="1"/>
+      <node ref="U7" pin="22"/>
     </net>
-    <net code="81" name="Net-(R28-Pad1)">
-      <node ref="U8" pin="20"/>
-      <node ref="R42" pin="1"/>
+    <net code="77" name="Net-(R25-Pad1)">
+      <node ref="R25" pin="1"/>
+      <node ref="R39" pin="1"/>
+      <node ref="U7" pin="20"/>
+    </net>
+    <net code="78" name="Net-(R26-Pad1)">
+      <node ref="R26" pin="1"/>
+      <node ref="R36" pin="1"/>
+      <node ref="U7" pin="25"/>
+    </net>
+    <net code="79" name="Net-(R28-Pad1)">
+      <node ref="R34" pin="1"/>
       <node ref="R28" pin="1"/>
+      <node ref="U7" pin="26"/>
+    </net>
+    <net code="80" name="Net-(R24-Pad1)">
+      <node ref="R38" pin="1"/>
+      <node ref="U7" pin="24"/>
+      <node ref="R24" pin="1"/>
+    </net>
+    <net code="81" name="Net-(R27-Pad1)">
+      <node ref="R37" pin="1"/>
+      <node ref="R27" pin="1"/>
+      <node ref="U7" pin="21"/>
     </net>
     <net code="82" name="Net-(R30-Pad1)">
-      <node ref="R40" pin="1"/>
-      <node ref="U8" pin="21"/>
-      <node ref="R30" pin="1"/>
-    </net>
-    <net code="83" name="Net-(R32-Pad1)">
-      <node ref="R38" pin="1"/>
-      <node ref="U8" pin="22"/>
       <node ref="R32" pin="1"/>
+      <node ref="R30" pin="1"/>
+      <node ref="U7" pin="27"/>
     </net>
-    <net code="84" name="Net-(R27-Pad1)">
-      <node ref="U8" pin="24"/>
-      <node ref="R27" pin="1"/>
-      <node ref="R41" pin="1"/>
-    </net>
-    <net code="85" name="Net-(U8-Pad45)">
-      <node ref="U8" pin="45"/>
-    </net>
-    <net code="86" name="Net-(U8-Pad46)">
-      <node ref="U8" pin="46"/>
-    </net>
-    <net code="87" name="Net-(U8-Pad30)">
-      <node ref="U8" pin="30"/>
-    </net>
-    <net code="88" name="/DC_Link_Input/5.0V">
-      <node ref="C9" pin="1"/>
-    </net>
-    <net code="89" name="/DC_Link_Input/GND">
-      <node ref="C9" pin="2"/>
-    </net>
-    <net code="90" name="Net-(U3-Pad4)">
+    <net code="83" name="Net-(U3-Pad4)">
       <node ref="U3" pin="4"/>
     </net>
-    <net code="91" name="Net-(U4-Pad4)">
+    <net code="84" name="Net-(U4-Pad4)">
       <node ref="U4" pin="4"/>
     </net>
-    <net code="92" name="Net-(U5-Pad5)">
+    <net code="85" name="Net-(U5-Pad5)">
       <node ref="U5" pin="5"/>
     </net>
-    <net code="93" name="Net-(C11-Pad2)">
-      <node ref="C11" pin="2"/>
-    </net>
-    <net code="94" name="Net-(C11-Pad1)">
-      <node ref="C11" pin="1"/>
-    </net>
-    <net code="95" name="Net-(C14-Pad1)">
-      <node ref="R21" pin="1"/>
-      <node ref="C14" pin="1"/>
-      <node ref="U6" pin="7"/>
-      <node ref="R19" pin="1"/>
-      <node ref="R18" pin="1"/>
-    </net>
-    <net code="96" name="Net-(C15-Pad2)">
-      <node ref="C15" pin="2"/>
-      <node ref="R19" pin="2"/>
-      <node ref="R22" pin="1"/>
-      <node ref="R20" pin="2"/>
-      <node ref="U6" pin="6"/>
-    </net>
-    <net code="97" name="Net-(R16-Pad2)">
-      <node ref="R16" pin="2"/>
+    <net code="86" name="Net-(R13-Pad2)">
+      <node ref="R13" pin="2"/>
       <node ref="U6" pin="4"/>
     </net>
-    <net code="98" name="Net-(R15-Pad2)">
-      <node ref="R15" pin="2"/>
+    <net code="87" name="Net-(C26-Pad2)">
+      <node ref="U6" pin="6"/>
+      <node ref="R16" pin="2"/>
+      <node ref="C26" pin="2"/>
+      <node ref="R17" pin="2"/>
+      <node ref="R19" pin="1"/>
+    </net>
+    <net code="88" name="Net-(C25-Pad1)">
+      <node ref="R16" pin="1"/>
+      <node ref="U6" pin="7"/>
+      <node ref="R15" pin="1"/>
+      <node ref="C25" pin="1"/>
+      <node ref="R18" pin="1"/>
+    </net>
+    <net code="89" name="Net-(R12-Pad2)">
+      <node ref="R12" pin="2"/>
       <node ref="U6" pin="1"/>
+    </net>
+    <net code="90" name="/gate_drive/LGATE">
+      <node ref="U12" pin="5"/>
+      <node ref="U10" pin="5"/>
+      <node ref="U9" pin="5"/>
+      <node ref="U11" pin="5"/>
+    </net>
+    <net code="91" name="Net-(C48-Pad1)">
+      <node ref="C50" pin="1"/>
+      <node ref="U12" pin="8"/>
+      <node ref="U11" pin="8"/>
+      <node ref="C49" pin="1"/>
+      <node ref="U10" pin="8"/>
+      <node ref="C48" pin="1"/>
+      <node ref="U9" pin="8"/>
+      <node ref="C51" pin="1"/>
+    </net>
+    <net code="92" name="Net-(C48-Pad2)">
+      <node ref="U9" pin="2"/>
+      <node ref="U12" pin="2"/>
+      <node ref="C51" pin="2"/>
+      <node ref="C48" pin="2"/>
+      <node ref="C50" pin="2"/>
+      <node ref="U10" pin="2"/>
+      <node ref="U11" pin="2"/>
+      <node ref="C49" pin="2"/>
+    </net>
+    <net code="93" name="Net-(R45-Pad1)">
+      <node ref="R46" pin="1"/>
+      <node ref="U11" pin="7"/>
+      <node ref="U10" pin="7"/>
+      <node ref="R48" pin="1"/>
+      <node ref="R47" pin="1"/>
+      <node ref="R45" pin="1"/>
+      <node ref="U9" pin="7"/>
+      <node ref="U12" pin="7"/>
+    </net>
+    <net code="94" name="/gate_drive/PWM">
+      <node ref="U10" pin="3"/>
+      <node ref="U12" pin="3"/>
+      <node ref="U9" pin="3"/>
+      <node ref="U11" pin="3"/>
+    </net>
+    <net code="95" name="/gate_drive/UGATE">
+      <node ref="U10" pin="1"/>
+      <node ref="U9" pin="1"/>
+      <node ref="U11" pin="1"/>
+      <node ref="U12" pin="1"/>
+    </net>
+    <net code="96" name="/gate_drive/GND">
+      <node ref="C46" pin="2"/>
+      <node ref="U10" pin="4"/>
+      <node ref="C44" pin="2"/>
+      <node ref="C42" pin="2"/>
+      <node ref="C40" pin="2"/>
+      <node ref="C41" pin="2"/>
+      <node ref="U12" pin="4"/>
+      <node ref="U9" pin="4"/>
+      <node ref="C43" pin="2"/>
+      <node ref="U11" pin="4"/>
+      <node ref="C47" pin="2"/>
+      <node ref="C45" pin="2"/>
+    </net>
+    <net code="97" name="/gate_drive/VDD">
+      <node ref="R46" pin="2"/>
+      <node ref="C47" pin="1"/>
+      <node ref="U11" pin="6"/>
+      <node ref="C42" pin="1"/>
+      <node ref="C46" pin="1"/>
+      <node ref="C40" pin="1"/>
+      <node ref="R45" pin="2"/>
+      <node ref="C44" pin="1"/>
+      <node ref="R48" pin="2"/>
+      <node ref="U9" pin="6"/>
+      <node ref="C43" pin="1"/>
+      <node ref="R47" pin="2"/>
+      <node ref="U12" pin="6"/>
+      <node ref="C45" pin="1"/>
+      <node ref="C41" pin="1"/>
+      <node ref="U10" pin="6"/>
     </net>
   </nets>
 </export>
