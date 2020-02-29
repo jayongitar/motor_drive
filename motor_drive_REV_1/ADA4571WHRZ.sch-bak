@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 10 6
+Sheet 2 6
 Title ""
 Date ""
 Rev ""
@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L motor_drive:ADA4571WHRZ-R7 U5
+L motor_drive:ADA4571WHRZ-R7 U1
 U 1 1 5E373274
 P 4450 3850
-F 0 "U5" H 5250 4237 60  0000 C CNN
+F 0 "U1" H 5250 4237 60  0000 C CNN
 F 1 "ADA4571WHRZ-R7" H 5250 4131 60  0000 C CNN
 F 2 "motor_drive_footprints:AD8418ABRMZ-RL" H 5250 4090 60  0001 C CNN
 F 3 "" H 4450 3850 60  0000 C CNN
@@ -55,10 +55,10 @@ Text HLabel 3400 3850 0    50   Input ~ 0
 VDD
 NoConn ~ 4450 4050
 $Comp
-L motor_drive:C C21
+L motor_drive:C C1
 U 1 1 5E374B8C
 P 3550 4000
-F 0 "C21" V 3298 4000 50  0000 C CNN
+F 0 "C1" V 3298 4000 50  0000 C CNN
 F 1 "2.2uF" V 3389 4000 50  0000 C CNN
 F 2 "motor_drive_footprints:C_0603_1608Metric" H 3588 3850 50  0001 C CNN
 F 3 "~" H 3550 4000 50  0001 C CNN
@@ -68,10 +68,10 @@ $EndComp
 Wire Wire Line
 	3550 3850 3400 3850
 $Comp
-L motor_drive:C C22
+L motor_drive:C C2
 U 1 1 5E5D273D
 P 4100 4000
-F 0 "C22" V 3848 4000 50  0000 C CNN
+F 0 "C2" V 3848 4000 50  0000 C CNN
 F 1 "0.01uF" V 3939 4000 50  0000 C CNN
 F 2 "motor_drive_footprints:C_0603_1608Metric" H 4138 3850 50  0001 C CNN
 F 3 "~" H 4100 4000 50  0001 C CNN

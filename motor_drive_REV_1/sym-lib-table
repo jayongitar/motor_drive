@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name motor_drive)(type Legacy)(uri C:/Users/18312/Desktop/KiCad/motor_drive/motor_drive_REV_1/lib_sch/motor_drive.lib)(options "")(descr ""))
   (lib (name MAIN-rescue)(type Legacy)(uri ${KIPRJMOD}/MAIN-rescue.lib)(options "")(descr ""))
+  (lib (name 2020-02-26_06-36-19)(type Legacy)(uri C:/Users/18312/Downloads/ul_PTPSM265R1SILR/KiCAD/2020-02-26_06-36-19/2020-02-26_06-36-19.lib)(options "")(descr ""))
 )

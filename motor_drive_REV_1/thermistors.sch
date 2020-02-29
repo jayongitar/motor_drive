@@ -18,8 +18,8 @@ L motor_drive:R R?
 U 1 1 5E9C4489
 P 5000 2750
 AR Path="/5E41A78C/5E9C4489" Ref="R?"  Part="1" 
-AR Path="/5E9C38D7/5E9C4489" Ref="R?"  Part="1" 
-F 0 "R?" H 5070 2796 50  0000 L CNN
+AR Path="/5E9C38D7/5E9C4489" Ref="R51"  Part="1" 
+F 0 "R51" H 5070 2796 50  0000 L CNN
 F 1 "R" H 5070 2705 50  0000 L CNN
 F 2 "motor_drive_footprints:C_0603_1608Metric" V 4930 2750 50  0001 C CNN
 F 3 "~" H 5000 2750 50  0001 C CNN
@@ -31,8 +31,8 @@ L motor_drive:C C?
 U 1 1 5E9C448F
 P 5500 2750
 AR Path="/5E41A78C/5E9C448F" Ref="C?"  Part="1" 
-AR Path="/5E9C38D7/5E9C448F" Ref="C?"  Part="1" 
-F 0 "C?" H 5615 2796 50  0000 L CNN
+AR Path="/5E9C38D7/5E9C448F" Ref="C46"  Part="1" 
+F 0 "C46" H 5615 2796 50  0000 L CNN
 F 1 "C" H 5615 2705 50  0000 L CNN
 F 2 "motor_drive_footprints:C_0603_1608Metric" H 5538 2600 50  0001 C CNN
 F 3 "~" H 5500 2750 50  0001 C CNN
@@ -44,8 +44,8 @@ L Connector_Generic:Conn_01x02 J?
 U 1 1 5E9C4495
 P 5700 2200
 AR Path="/5E41A78C/5E9C4495" Ref="J?"  Part="1" 
-AR Path="/5E9C38D7/5E9C4495" Ref="J?"  Part="1" 
-F 0 "J?" H 5780 2192 50  0000 L CNN
+AR Path="/5E9C38D7/5E9C4495" Ref="J6"  Part="1" 
+F 0 "J6" H 5780 2192 50  0000 L CNN
 F 1 "Conn_01x02" H 5780 2101 50  0000 L CNN
 F 2 "motor_drive_footprints:2pos_254" H 5700 2200 50  0001 C CNN
 F 3 "~" H 5700 2200 50  0001 C CNN
@@ -82,8 +82,8 @@ L motor_drive:R R?
 U 1 1 5E9C4AB4
 P 5000 4250
 AR Path="/5E41A78C/5E9C4AB4" Ref="R?"  Part="1" 
-AR Path="/5E9C38D7/5E9C4AB4" Ref="R?"  Part="1" 
-F 0 "R?" H 5070 4296 50  0000 L CNN
+AR Path="/5E9C38D7/5E9C4AB4" Ref="R52"  Part="1" 
+F 0 "R52" H 5070 4296 50  0000 L CNN
 F 1 "R" H 5070 4205 50  0000 L CNN
 F 2 "motor_drive_footprints:C_0603_1608Metric" V 4930 4250 50  0001 C CNN
 F 3 "~" H 5000 4250 50  0001 C CNN
@@ -95,8 +95,8 @@ L motor_drive:C C?
 U 1 1 5E9C4ABA
 P 5500 4250
 AR Path="/5E41A78C/5E9C4ABA" Ref="C?"  Part="1" 
-AR Path="/5E9C38D7/5E9C4ABA" Ref="C?"  Part="1" 
-F 0 "C?" H 5615 4296 50  0000 L CNN
+AR Path="/5E9C38D7/5E9C4ABA" Ref="C47"  Part="1" 
+F 0 "C47" H 5615 4296 50  0000 L CNN
 F 1 "C" H 5615 4205 50  0000 L CNN
 F 2 "motor_drive_footprints:C_0603_1608Metric" H 5538 4100 50  0001 C CNN
 F 3 "~" H 5500 4250 50  0001 C CNN
@@ -108,8 +108,8 @@ L Connector_Generic:Conn_01x02 J?
 U 1 1 5E9C4AC0
 P 5700 3700
 AR Path="/5E41A78C/5E9C4AC0" Ref="J?"  Part="1" 
-AR Path="/5E9C38D7/5E9C4AC0" Ref="J?"  Part="1" 
-F 0 "J?" H 5780 3692 50  0000 L CNN
+AR Path="/5E9C38D7/5E9C4AC0" Ref="J7"  Part="1" 
+F 0 "J7" H 5780 3692 50  0000 L CNN
 F 1 "Conn_01x02" H 5780 3601 50  0000 L CNN
 F 2 "motor_drive_footprints:2pos_254" H 5700 3700 50  0001 C CNN
 F 3 "~" H 5700 3700 50  0001 C CNN
